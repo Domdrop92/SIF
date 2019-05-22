@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="codemirror/lib/codemirror.css">
     <title>Test Task Page</title>
@@ -12,14 +13,29 @@
 
 </head>
 <body>
+    <h1>Task 1</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt molestias explicabo odio itaque non sit, ratione id. Omnis nam, quos ipsa nemo reprehenderit corrupti sit facere accusamus eveniet, accusantium nesciunt!</p>
+    <p id="demo"></p>
     <div id="codeeditor"></div>   
     <script>
       var editor = CodeMirror(document.getElementById("codeeditor"));
     </script>
-    <button class="Check It" >Check Answer</button>
-    <button class="Submit It" >Submit</button>
-
+    <button class="Check It" onclick="checkOnIt()">Check Answer</button>
+    <button class="Submit It" onclick="submitIt()">Submit</button>
     </script>
+
+    <script>
+    function checkOnIt() {
+        document.getElementById("demo").innerHTML = alert('You are about to check to see if this is right');
+    }
+    function submitIt() {
+        document.getElementById("demo").innerHTML = alert('You are about to submit this assignment');
+    }
+    </script>
+
+    <footer>
+        <a href="https://www.w3schools.com/"><i class="fas fa-asterisk"></i></a>
+    </footer>
 
 </body>
 </html>
