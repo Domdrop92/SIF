@@ -1,3 +1,36 @@
 button {
     color:blue;
 }
+form {
+    display: box;
+    background-color:yellow;
+    width: 95%;
+    margin: auto;
+
+}
+p {
+    display:box;
+    width: 95%;
+    margin: auto;
+}
+
+body {
+    display: box;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+h1{
+    display: box;
+    width: 100px;
+    margin: auto;
+}
+
+div {
+    display: box;
+    width: 95%;
+    margin: auto;
+}
+

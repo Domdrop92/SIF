@@ -13,20 +13,57 @@
 
 </head>
 <body>
+    <div style="background-color: lightblue;color:white;">
     <h1>Task 1</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt molestias explicabo odio itaque non sit, ratione id. Omnis nam, quos ipsa nemo reprehenderit corrupti sit facere accusamus eveniet, accusantium nesciunt!</p>
-    <p id="demo"></p>
+    <!-- <p id="demo"></p>
     <div id="codeeditor"></div>   
     <script>
       var editor = CodeMirror(document.getElementById("codeeditor"));
-    </script>
+      </script> -->
+<!-- // this will be the text box stuff// -->
+</div>
+    <form autocomplete="off" spellcheck="false" id="code-form" action="exercise_js.asp?filename=exercise_js_switch1" method="post" target="_blank">
+    <div class="exercisewindow">
+        <p>
+            <code class="codespan">switch</code>
+            "stuff here0"
+            <code class="codespan">fruits</code>
+            "here is more stuff"
+            <code class="codespan">fruits</code>
+            "more stuff here"
+        </p>
+        <div class="exercisecontainer">
+            <pre>
+            <input name="ex1" maxlength="" style="">
+            (fruits) {
+                
+            <input name="ex2" maxlength="" style="">
+             "Banana":
+                alert("hello")
+                break;
+                
+            <input name="ex3" maxlength="" style="">
+             "Apple":
+                alert("welcome")
+                break;
+        }
+        
+        </pre>
+        </div>
+        <br>
+        <!-- <button type="submit" >Submit answer</button> -->
+    </div>
+</form>
     <button class="Check It" onclick="checkOnIt()">Check Answer</button>
     <button class="Submit It" onclick="submitIt()">Submit</button>
     </script>
 
     <script>
     function checkOnIt() {
-        document.getElementById("demo").innerHTML = alert('You are about to check to see if this is right');
+
+        document.getElementById("demo").innerHTML = alert('You are about to check to see if this answer is right');
+
     }
     function submitIt() {
         document.getElementById("demo").innerHTML = alert('You are about to submit this assignment');
