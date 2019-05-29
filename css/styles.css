@@ -1,3 +1,50 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
-/* font-family: 'IBM Plex Serif', serif;
-font-family: 'Six Caps', sans-serif; */
+@import url(“https://use.typekit.net/xhg4tix.css“);
+/*font-family: mongoose, sans-serif;
+font-family: ibm-plex-serif, sans-serif;*/
+
+body{
+    font-family: ibm-plex-serif, sans-serif;
+    letter-spacing: 1px;
+}
+.container{
+    background-color:#E9EBF0
+    height: 100vh;
+}
+
+/**** START HEADER ****/
+.header, .askBar{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+}
+.GITgirls-logo{
+    height: 50px;
+    width: 50px;
+}
+/**** END HEADER ****/
+
+/**** POST BAR AND MODAL ****/
+.modal-content{
+    background-color:#999AA7;
+}
+.modal-header, .modal-body{
+    border-bottom: thin solid #FFB6B3;
+    color: #FFFFFF;
+}
+.askButton, .submitButton{
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+}
+.askButton,.submitButton{
+    width: 80px;
+    background-color: #FFB6B3;
+}
+/**** END POST BAR AND MODAL ****/
+/**** SEARCH BAR ****/
+.searchBar{
+    width: 125px;
+    border-radius: 15px;
+}
+/**** SEARCH BAR ****/

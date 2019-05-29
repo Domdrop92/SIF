@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,18 +10,84 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Git Girls</title>
 </head>
-<body>
 
- 
-    
+<body>
+    <!----- FORUM PAGE ----->
+    <div class="container">
+        <!----- START HEADER ----->
+        <header class="header row">
+            <a href="#" class="offset-10">
+                <img src="imgs/GITgirls-logo.png" class=" GITgirls-logo" alt="Uppercase grey G and lowecase pink G">
+            </a>
+        </header>
+        <!----- END HEADER ----->
+
+        <!----- START CREATE BUTTONS AND SEARCH BAR ----->
+        <div class="d-flex flex-row askBar">
+            <!-- ASK BUTTON W/ MODAL -->
+            <button type="button" class="askButton offset-1" data-toggle="modal" data-target="#exampleModal">
+                Post
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">New Question</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Subject:</label>
+                                    <input type="text" class="form-control" id="form-subject">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Text:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="submitButton">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END ASK BUTTON W/ MODAL -->
+            <!-- SEARCH BAR -->
+            <form class="form-inline">
+                    <input type="search" class="form-control ds-input  offset-1 searchBar" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off" data-docs-version="4.3" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
+                    <button type="button" class="askButton offset-1">
+                        Search
+                    </button>
+            </form>
+            
+        </div>
+        <!----- END CREATE BUTTONS AND SEARCH BAR ----->
+
+        <nav></nav>
+    </div>
+
+
+
 
 
 
 
 
     <script src="js/scripts.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
-</html>   
+
+</html>
