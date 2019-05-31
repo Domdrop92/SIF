@@ -1,3 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
 /* font-family: 'IBM Plex Serif', serif;
 font-family: 'Six Caps', sans-serif; */
+body{
+    background-color:#FFB6B3;
+}
+.logoTop{
+
+    padding: 30px;
+}
