@@ -48,3 +48,23 @@ body{
     border-radius: 15px;
 }
 /**** SEARCH BAR ****/
+
+.comments{
+    height: 550px;
+}
+
+.navbar{
+    background-color: #999AA7;
+    height: 115px;
+}
+
+.navBtn{
+    background-color: #FFB6B3;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 0px, 0px, 10px, 0px;
+    width: 85px;
+    height: 50px;
+    border-radius: 15px;
+}
