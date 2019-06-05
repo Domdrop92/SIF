@@ -6,27 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link ref="stylesheet" href="css/styles.css">
     <title>Document</title>
+
+    <style>
+            .dropbtn {
+              background-color: #999AA7;
+              color: white;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+            }
+            
+            .dropdown {
+              position: relative;
+              display: block;
+              text-align: center;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f1f1f1;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+            .dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+            </style>
+
 </head>
+
+<!----- START HEADER ----->
+<header class="header row">
+        <a href="#" class="offset-10">
+             <img src="GITgirls-logo.png" width="50px" alt="Uppercase grey G and lowecase pink G">
+         </a>
+        </header>
+<!----- END HEADER ----->
+
 <body>
+    <!-- This button will be the link to the profile page -->
     <button>This will be the profile part</button>
     <h1>Name</h1>
-    <h2>Name of Course</h2>
+    <div class="btn-group">
+    <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn" >Course #1</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Student #1</a>
+              <a href="#">Student #2</a>
+              <a href="#">Student #3</a>
+              <a href="#">Student #4</a>
+              <a href="#">Student #5</a>
+              <a href="#">Student #6</a>
+            </div>
+        </div>
 
-    <ui>
-        <li><button>Student #1</button></li>
-        <li><button>Student #2</button></li>
-        <li><button>Student #3</button></li>
-        <li><button>Student #4</button></li>
-        <li><button>Student #5</button></li>
-        <li><button>Student #6</button></li>
-    </ui>
+     <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Course #2</button>
+             <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Student #1</a>
+                  <a href="#">Student #2</a>
+                  <a href="#">Student #3</a>
+                  <a href="#">Student #4</a>
+                  <a href="#">Student #5</a>
+                  <a href="#">Student #6</a>
+                </div>
+        </div>     
+            
+     <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Course #3</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">Student #1</a>
+                      <a href="#">Student #2</a>
+                      <a href="#">Student #3</a>
+                      <a href="#">Student #4</a>
+                      <a href="#">Student #5</a>
+                      <a href="#">Student #6</a>
+                    </div>
+        </div>           
 
-
-
-
-
-
-
+     <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Course #4</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Student #1</a>
+                  <a href="#">Student #2</a>
+                  <a href="#">Student #3</a>
+                  <a href="#">Student #4</a>
+                  <a href="#">Student #5</a>
+                  <a href="#">Student #6</a>
+                </div>
+        </div>       
+</div>
 <script src="js/script.js"></script>
 
 </body>
