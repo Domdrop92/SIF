@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
+/* font-family: 'IBM Plex Serif', serif;
+font-family: 'Six Caps', sans-serif; */
+/* 
+#FFFFFF white
+#E897B6 pink
+#DFE6F5 light blue
+#999AA7 gray
+#E9EBF0 light gray
+#FFB6B3 peach
+ */
+ .radius{
+     border-radius: 20px;
+ }
+ .padding{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-right: 10px;
+     padding-left: 10px;
+ }
+ .blightgray{
+     background-color: #e9ebf0;
+ }
+ .lb{
+     background-color: #DFE6F5;
+ }
+ .bgray{
+     background-color: #999aa7;
+ }
+ .f36{
+     font-size: 36px;
+ }
+ .f24{
+     font-size: 24px;
+ }
+ .f12{
+    font-size: 12px;
+}
+.logo{
+    height: 100px;
+}
+.month{
+    color: #e897b6;
+    font-family: 'IBM Plex Serif', serif
+}
+.flgray{
+    color: #e9ebf0;
+}
+.bpink{
+    background-color: #e897b6;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.h100{
+    height: 100px;
+}
+.h80{
+    height: 80px;
+}
+.blightgray{
+    background-color: #e9ebf0;
+}
+.bpeach{
+    background-color: #ffb6b3;
+}
+.fwhite{
+    color: white;
+}
