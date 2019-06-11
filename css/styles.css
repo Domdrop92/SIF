@@ -9,6 +9,10 @@ font-family: 'Six Caps', sans-serif; */
     border-color: black;
     border-radius: 45px;
 }
+.logo{
+    height: 100px;
+    float: right;
+}
 .pink{
     color: #E897B6;
 }
