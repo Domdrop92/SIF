@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link ref="stylesheet" href="css/mentstyles.css">
+    <title>Mentor Dashboard</title>
+
+</head>
+<!----- START HEADER ----->
+<header class="header row">
+        <a href="#" class="offset-10">
+             <img src="GITgirls-logo.png" width="50px" align="right" alt="Uppercase grey G and lowecase pink G">
+         </a>
+        </header>
+<!----- END HEADER ----->
+
+<body style= "background-color: #E9EBF0">
+    <!-- This button will be the link to the profile page -->
+    <button>This will be the profile part</button>
+    <h1 class="font-stuff">Daphne Hughes</h1>
+    <div class="btn-group">
+    <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn" >Course #1  <i class="arrow down"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Student #1</a>
+              <a href="#">Student #2</a>
+              <a href="#">Student #3</a>
+              <a href="#">Student #4</a>
+              <a href="#">Student #5</a>
+              <a href="#">Student #6</a>
+            </div>
+        </div>
+
+     <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Course #2  <i class="arrow down"></i></button>
+             <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Student #1</a>
+                  <a href="#">Student #2</a>
+                  <a href="#">Student #3</a>
+                  <a href="#">Student #4</a>
+                  <a href="#">Student #5</a>
+                  <a href="#">Student #6</a>
+                </div>
+        </div>     
+            
+     <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Course #3  <i class="arrow down"></i></button>
+             <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Student #1</a>
+                    <a href="#">Student #2</a>
+                    <a href="#">Student #3</a>
+                    <a href="#">Student #4</a>
+                    <a href="#">Student #5</a>
+                    <a href="#">Student #6</a>
+                    </div>
+        </div>           
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Course #4  <i class="arrow down"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Student #1</a>
+                  <a href="#">Student #2</a>
+                  <a href="#">Student #3</a>
+                  <a href="#">Student #4</a>
+                  <a href="#">Student #5</a>
+                  <a href="#">Student #6</a>
+                </div>
+        </div>       
+</div>
+<script src="js/script.js"></script>
+<script>
+    window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>
