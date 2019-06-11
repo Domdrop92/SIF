@@ -3,9 +3,10 @@ button {
 }
 form {
     display: box;
-    background-color:yellow;
+    background-color :#E9EBF0 ;
     width: 95%;
     margin: auto;
+    margin-bottom: 15px;
 
 }
 p {
@@ -15,6 +16,7 @@ p {
 }
 
 body {
+    background-color: #FFB6B3;
     display: box;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
