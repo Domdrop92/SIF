@@ -1,3 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
 /* font-family: 'IBM Plex Serif', serif;
 font-family: 'Six Caps', sans-serif; */
+
+body{
+    font-family: ibm-plex-serif, sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.container{
+    background-color:#FFB6B3;
+    height: 100vh;
+}
+
+/**** START HEADER ****/
+.header{
+    padding: 15px;
+}
+.GITgirls-logo{
+    margin-top: 100px;
+    height: 75px;;
+    width: 200px;
+}
+
+.welcome{
+    font-family: 'IBM plex serif', serif;
+    color: #999AA7;
+    font-style: italic;
+    margin-top: 20px;
+}
+/**** END HEADER ****/
+
+/* START LOGIN FORM */
+
+.input_spot{
+    border-radius: 15px;
+    height: 45px;
+}
+
+/* END LOGIN FORM */
