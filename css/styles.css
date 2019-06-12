@@ -23,21 +23,29 @@ body{
 /**** END HEADER ****/
 
 .createButton {
-    font-weight: 400;
-    color: #E897B6;
-    background-color: #E9EBF0;
-    padding: 4px;
-    border-radius: 5px;
-    transition: color .15s;
-}
-.editButton {
-    font-weight: 400;
-    color: #E897B6;
-    background-color: #E9EBF0;
-    padding: 4px;
-    border-radius: 5px;
-    transition: color .15s;
-}
+    background-color: #FFFFFF; /* white */
+    border: none;
+    color:#999AA7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .editButton {
+    background-color: #FFFFFF; /* white */
+    border: none;
+    color: #999AA7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 .boxed{  height: 100px;
     width: 500px;
     border: 5px solid #ffffff;
@@ -146,4 +154,59 @@ body{
     font-size: 25px;
     font-family: ibm-plex-serif, sans-serif;
     word-wrap: break-word;
+}
+
+.pic{
+    height: 75px;
+    background-color:gray;
+    border-color: black;
+    border-radius: 45px;
+}
+.pink{
+    color: #E897B6;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.fwhite{
+    color:white;
+}
+.gray{
+    color: #999AA7;
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.lightgray{
+    background-color: #E9EBF0;
+}
+.f50{
+    font-size: 50px;
+}
+.f36{
+    font-size: 36px;
+}
+.h100{
+    height: 100px;
+}
+.h80{
+    height: 80px;
+    width: 100px;
+}
+.h80w150{
+    height: 80px;
+    width: 150px;
+}
+.bold{
+    font-weight: bold;
+}
+.sixcaps{
+    font-family: 'Six Caps', sans-serif;
+}
+.ibm{
+    font-family: 'IBM Plex Serif', serif;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
