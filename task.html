@@ -20,13 +20,12 @@
         <!-- end header -->
         <!-- main body -->
         <div class="row">
-            <div class="col-2">
-                <div class="pic"></div>
-                <img src="" alt="">
+            <div class="col-3">
+                <img class="pic"src="img/profilepicone.jpg" alt="profilepicone">
                 <!-- <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()"> -->
             </div>
-            <div class="col-10">
-                <div class="row"><p class="f36 gray ibm">Name</p></div>
+            <div class="col-9">
+                <div class="row"><p class="f36 gray ibm">Belle Sam</p></div>
                 <div class="row"><p class="f36 pink sixcaps">Student</p></div>
             </div>
         </div>
@@ -34,23 +33,60 @@
             <p class="gray f36 ibm">Mentor</p>
         </div>
         <div class="row">
-            <button type="button" class="btn btn-secondary h80w150">Mentor Name Beginning HTML</button>
+            <button type="button" class="btn btn-secondary h80w150">Melissa Pats Beginning HTML</button>
         </div>
                     
 
-        <div class="row"><p class="f36 gray ibm">Task</p></div>
-        <div class="row"><button type="button" class="btn btn-outline-secondary">Assignment #1 - HTML</button></div>
-        <div class="row ptpb"><button type="button" class="btn btn-outline-secondary">Assignment #2 - How to link an IMG</button></div>
+        <div class="row">
+            <div class="col-8"><p class="f36 gray ibm">Task</p></div>
+            <div class="col-4"><p class="f36 gray ibm">Done</p></div>
+        </div>
+        <div class="row">
+            <div class="col-8"><button type="button" class="btn btn-outline-secondary">Assignment #1 - HTML</button></div>
+            <div class="col-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <input type="checkbox" aria-label="Checkbox for following text input">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row ptpb">
+            <div class="col-8"><button type="button" class="btn btn-outline-secondary">Assignment #2 - How to link an IMG</button></div>
+            <div class="col-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <input type="checkbox" aria-label="Checkbox for following text input">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row ptpb">
+            <div class="col-8"><button type="button" class="btn btn-outline-secondary">Assignment #3 - How to link CSS</button></div>
+            <div class="col-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <input type="checkbox" aria-label="Checkbox for following text input">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
         <!-- end main body -->
 
-        <!-- footer -->
+        <!-- nav -->
         <footer class="row  lightgray h100 wrap-none">
             <div class="col-3 ptpb"><button type="button" class="btn fwhite peach h80">Dashboard</button></div>
-            <div class="col-3 ptpb"><button type="button" class="btn fwhite peach h80">Calendar</button></div>
+            <div class="col-3 ptpb"><button type="button" id="myCalendar" onclick="href='calendar.html';"class="btn fwhite peach h80">Calendar</button></div>
             <div class="col-3 ptpb"><button type="button" class="btn fwhite peach h80">Forum</button></div>
             <div class="col-3 ptpb"><button type="button" class="btn fwhite peach h80">Inbox</button></div>
         </footer>
-        <!-- end footer -->
+        <!-- end nav -->
     </div>
 
  

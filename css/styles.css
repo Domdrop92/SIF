@@ -5,8 +5,6 @@ font-family: 'Six Caps', sans-serif; */
 /* TASK STYLES */
 .pic{
     height: 75px;
-    background-color: gray;
-    border-color: black;
     border-radius: 45px;
 }
 .logo{
