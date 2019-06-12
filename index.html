@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -11,10 +11,10 @@
     <title>Git Girls</title>
 </head>
 
-<body class="d-flex justify-content-center">
+<body>
     <div class="container">
         <!----- START HEADER ----->
-        <div class="header justify-content-center">
+        <div class="header">
             <a href="#">
                 <img src="imgs/GITgirls-logolong.png" class=" GITgirls-logo"
                     alt="Uppercase grey GIT and lowecase pink girls">
@@ -24,18 +24,98 @@
         <!----- END HEADER ----->
 
         <!----- START LOGIN SECTION ----->
-        <form action="#" class="login_form col-10">
-
-                <input type="text" placeholder="Email" name="email" class="input_spot" required>
-
-                <input type="password" placeholder="Enter Password" name="psw" class="input_spot" required>
-
-                <button type="Sign In" class="input_spot">Login</button>
-                <label>
-
+        <form class=" d-flex flex-column justify-content-center">
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <button type="submit" class="btn sub_button">Submit</button>
+            <button type="button" class="btn createAccount" data-toggle="modal" data-target="#newAccountModal">Create
+                Account</button>
         </form>
 
-    </div>
+        <!-- Modal For Register Account START-->
+        <div class="modal fade" id="newAccountModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="ModalLabel">Create Account</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!-- NAME, EMAIL, PASSWORD, USER SECTIONS -->
+                    <div class="modal-body">
+                        <form name="accountForm" onsubmit="return validInput()">
+                            <div class="d-flex flex-column justify-content-center">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><b>Full Name:</b></span>
+                                    </div>
+                                    <input id="firstNameInput" type="text" aria-label="First name" class="form-control"
+                                        placeholder="First" required>
+                                    <input id="LastNameInput" type="text" aria-label="Last name" class="form-control"
+                                        placeholder="Last" required>
+                                </div>
+
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><b>Email:</b></span>
+                                    </div>
+                                    <input id="emailInput" type="text" aria-label="Email" class="form-control"
+                                        name="email" placeholder="myemail@web.com" required>
+                                </div>
+
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><b>Password:</b></span>
+                                    </div>
+                                    <input type="text" aria-label="Password" class="form-control" name="Password"
+                                        placeholder="Password" required>
+                                </div>
+
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><b>Password:</b></span>
+                                    </div>
+                                    <input type="text" aria-label="Repeat Password" class="form-control"
+                                        name="Repeat Password" placeholder="Repeat Password" required>
+                                </div>
+
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><b>I am a:</b></span>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="chooseRadio1" name="chooseRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="chooseRadio1">Student</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="chooseRadio2" name="chooseRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="chooseRadio2">Mentor</label>
+                                    </div>
+                                </div>
+
+                                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                            </div>
+
+                            <div class="signin">
+                                <p>Already have an account? <a href="#">Sign in</a>.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn cancelBtn" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn submitBtn">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
 
 
 
@@ -44,16 +124,16 @@
 
 
 
-    <script src="js/scripts.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+                <script src="js/scripts.js"></script>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
 </body>
 
 </html>
