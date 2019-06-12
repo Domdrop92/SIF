@@ -50,7 +50,7 @@ body{
 /**** SEARCH BAR ****/
 
 .comments{
-    
+        height: 500px;;
 }
 
 /**** START NAV BAR ****/
@@ -76,16 +76,3 @@ body{
     border-radius: 15px;
 }
 
-/* * {
-    -webkit-box-sizing: content-box;
-       -moz-box-sizing: content-box;
-            box-sizing: content-box;
-  }
-  *:before,
-  *:after {
-    -webkit-box-sizing: content-box;
-       -moz-box-sizing: content-box;
-            box-sizing: content-box;
-  } */
-
-/**** END NAV BAR ****/

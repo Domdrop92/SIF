@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Git Girls</title>
 </head>
 
-<body>
+<body onload="loadForum();">
     <!----- FORUM PAGE ----->
     <div class="container">
         <!----- START HEADER ----->
@@ -38,9 +38,11 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body" id="postForm">
                             <form>
                                 <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Name:</label>
+                                    <input type="text" class="form-control" id="form-userName">
                                     <label for="recipient-name" class="col-form-label">Subject:</label>
                                     <input type="text" class="form-control" id="form-subject">
                                 </div>
@@ -67,7 +69,6 @@
         <div class="questions">
             <div class="posts" id="posts">
 
-
             </div>
 
         </div>
@@ -76,37 +77,30 @@
         <!----- START OF NAVBAR ----->
         <nav class="row navbar fixed-bottom">
             <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler offset-11" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span><i class="fas fa-angle-up"></i></span>
+            <button class="navbar-toggler offset-11" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavbar">
+                <span><i class="fas fa-angle-up"></i></span>
             </button>
             <!-- Navbar links -->
-            <div class="collapse navbar-collapse d-flex  justify-content-center" id="collapsibleNavbar">
-              <ul class="navbar-nav flex-row">
-                <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-center" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-center" href="#">Events</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link d-flex justify-content-center" href="#">Forum</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link d-flex justify-content-center" href="#">Inbox</a>
-                  </li>  
-              </ul>
-            </div> 
-          </nav>
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-content-center" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-content-center" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-content-center" href="#">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-content-center" href="#">Inbox</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 
-
-
-
-
-
-
-
-    <script src="js/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -116,6 +110,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
