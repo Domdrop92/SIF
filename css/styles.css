@@ -21,6 +21,117 @@ body{
     width: 50px;
 }
 /**** END HEADER ****/
+
+.boxed{  height: 100px;
+    width: 500px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: left;
+    font-size: 45px;
+    font-family: ibm-plex-serif, sans-serif;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #ffffff;
+    background: #e897b6;
+    border-radius: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    font-size: 25px;
+    font-family: mongoose sans-serif;
+    word-wrap: break-word;
+}
+
+
+.box-2{
+    height: 200px;
+    width: 100px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    background-color: #999AA7;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+}
+
+.box-3{
+    height: 250px;
+    width: 50;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    background-color: #DFE6F5;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+}
+ .box-4{
+        height: 250px;
+        width: 150px;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        background-color: #e9ebf0;
+        font-weight: 400;
+        color: #E897B6;
+        text-align: center;
+        font-size: 25px;
+        font-family: ibm-plex-serif, sans-serif;
+        word-wrap: break-word;
+ }
+
+
+ .box-5{
+    height: 200px;
+    width: 100;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffb6b3;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+ }
+
+.box-6{
+        height: 200px;
+        width: 100px;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        background-color: #e9ebf0;
+        font-weight: 400;
+        color: #E897B6;
+        text-align: center;
+        font-size: 25px;
+        font-family: ibm-plex-serif, sans-serif;
+        word-wrap: break-word;
+}
+
+.box-7{
+    height: 200px;
+    width: 100px;
+    border: 5px solid #FFffff;
+    border-radius: 10px;
+    background-color:#999AA7;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+}
+
 .pic{
     height: 75px;
     background-color:gray;
@@ -75,7 +186,6 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-<<<<<<< Updated upstream
 .button {
     background-color: #FFFFFF; /* white */
     border: none;
@@ -104,7 +214,6 @@ body{
     opacity: 0.4;
     cursor: not-allowed;
   }
-=======
 
 body {
     font-family: Arial;
@@ -201,4 +310,3 @@ body {
   .demo:hover {
     opacity: 1;
   }
->>>>>>> Stashed changes

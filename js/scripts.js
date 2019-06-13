@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 document.getElementById("myCalendar").onclick= function(){
     location.href = "calendar.html";
 };
@@ -31,4 +29,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
->>>>>>> Stashed changes
