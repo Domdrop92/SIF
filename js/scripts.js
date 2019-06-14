@@ -27,7 +27,13 @@ let posts = [
             }
         ]
     }
-]
+];
+
+console.log(posts);
+
+fetch(
+    'js/posts.json'
+)
 
 //store
 localStorage.setItem("posts", JSON.stringify(posts));
