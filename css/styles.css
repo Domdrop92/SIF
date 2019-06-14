@@ -30,7 +30,7 @@ body{
     color: #E897B6;
     text-align: left;
     font-size: 45px;
-    font-family: ibm-plex-serif, sans-serif;
+    font-family: 'IBM Plex Serif', serif;
 }
 
 .box{
@@ -43,7 +43,7 @@ body{
     color: #ffffff;
     text-align: left;
     font-size: 25px;
-    font-family: mongoose sans-serif;
+    font-family: 'Six Caps', sans-serif;
     word-wrap: break-word;
 }
 
@@ -58,7 +58,7 @@ body{
     color: #E897B6;
     text-align: center;
     font-size: 25px;
-    font-family: ibm-plex-serif, sans-serif;
+    font-family: 'Six Caps', sans-serif;
     word-wrap: break-word;
 }
 
@@ -72,7 +72,7 @@ body{
     color: #E897B6;
     text-align: center;
     font-size: 25px;
-    font-family: ibm-plex-serif, sans-serif;
+    font-family: 'Six Caps', sans-serif;
     word-wrap: break-word;
 }
  .box-4{
@@ -85,7 +85,7 @@ body{
         color: #E897B6;
         text-align: center;
         font-size: 25px;
-        font-family: ibm-plex-serif, sans-serif;
+        font-family: 'Six Caps', sans-serif;
         word-wrap: break-word;
  }
 
@@ -100,7 +100,7 @@ body{
     color: #E897B6;
     text-align: center;
     font-size: 25px;
-    font-family: ibm-plex-serif, sans-serif;
+    font-family: 'Six Caps', sans-serif;
     word-wrap: break-word;
  }
 
@@ -114,7 +114,7 @@ body{
         color: #E897B6;
         text-align: center;
         font-size: 25px;
-        font-family: ibm-plex-serif, sans-serif;
+        font-family: 'Six Caps', sans-serif;
         word-wrap: break-word;
 }
 
@@ -128,7 +128,7 @@ body{
     color: #E897B6;
     text-align: center;
     font-size: 25px;
-    font-family: ibm-plex-serif, sans-serif;
+    font-family: 'Six Caps', sans-serif;
     word-wrap: break-word;
 }
 
