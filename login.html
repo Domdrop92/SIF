@@ -12,6 +12,9 @@
 </head>
 
 <body>
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center">Test</div>
+    </div>
     <div class="container">
         <!----- START HEADER ----->
         <div class="header">
@@ -50,7 +53,7 @@
                     </div>
                     <!-- NAME, EMAIL, PASSWORD, USER SECTIONS -->
                     <div class="modal-body">
-                        <form name="accountForm" onsubmit="return validInput()">
+                        <form name="accountForm" id="registerForm">
                             <div class="d-flex flex-column justify-content-center">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
@@ -58,7 +61,7 @@
                                     </div>
                                     <input id="firstNameInput" type="text" aria-label="First name" class="form-control"
                                         placeholder="First" required>
-                                    <input id="LastNameInput" type="text" aria-label="Last name" class="form-control"
+                                    <input id="lastNameInput" type="text" aria-label="Last name" class="form-control"
                                         placeholder="Last" required>
                                 </div>
 
@@ -75,7 +78,7 @@
                                         <span class="input-group-text"><b>Password:</b></span>
                                     </div>
                                     <input type="text" aria-label="Password" class="form-control" name="Password"
-                                        placeholder="Password" required>
+                                        placeholder="Password" id="password" required>
                                 </div>
 
                                 <div class="input-group">
@@ -83,26 +86,24 @@
                                         <span class="input-group-text"><b>Password:</b></span>
                                     </div>
                                     <input type="text" aria-label="Repeat Password" class="form-control"
-                                        name="Repeat Password" placeholder="Repeat Password" required>
+                                        name="Repeat Password" placeholder="Repeat Password" id="repeatePassword" required>
                                 </div>
 
-                                <div class="input-group">
+                                <!-- <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text"><b>I am a:</b></span>
                                     </div>
                                     <div class="custom-control custom-radio">
-                                        <input type="radio" id="chooseRadio1" name="chooseRadio"
+                                        <input type="radio" id="student" name="chooseRadio"
                                             class="custom-control-input">
                                         <label class="custom-control-label" for="chooseRadio1">Student</label>
                                     </div>
                                     <div class="custom-control custom-radio">
-                                        <input type="radio" id="chooseRadio2" name="chooseRadio"
+                                        <input type="radio" id="mentor" name="chooseRadio"
                                             class="custom-control-input">
                                         <label class="custom-control-label" for="chooseRadio2">Mentor</label>
-                                    </div>
+                                    </div> -->
                                 </div>
-
-                                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
                             </div>
 
                             <div class="signin">
@@ -110,30 +111,47 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn cancelBtn" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn submitBtn">Submit</button>
+                                <button type="submit" class="btn submitBtn" id="submit">Submit</button>
                             </div>
                         </form>
                     </div>
-
                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
 
+    <!-- <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBfMKU92wbOsaux9enmoBN0xpdo3__de5E",
+            authDomain: "gitgirls-2019.firebaseapp.com",
+            databaseURL: "https://gitgirls-2019.firebaseio.com",
+            projectId: "gitgirls-2019",
+            storageBucket: "gitgirls-2019.appspot.com",
+            messagingSenderId: "924271804292",
+            appId: "1:924271804292:web:38987aee5f4e40d7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script> -->
 
+    <script src="js/scripts.js"></script>
+    <script src="js/app.js"></script>
 
-
-
-
-
-                <script src="js/scripts.js"></script>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                    crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                    crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
