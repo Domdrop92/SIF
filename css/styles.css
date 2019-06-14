@@ -8,3 +8,8 @@ body{
 
     padding: 30px;
 }
+.form-group{
+    font-family: 'IBM Plex Serif', serif;
+    color: #999AA7;
+    border-radius: 50px;
+}
