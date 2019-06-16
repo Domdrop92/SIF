@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Git Girls Profile</title>
-    
 </head>
 <body>
 <div class="container">
@@ -32,21 +31,37 @@
             <button class="button"><i class="fas fa-pencil-alt"></i></button>
         </div>
             <div class="row">
-                <p class="gray f36 ibm">Achievement Badges</p>
+                <p class="gray f36 ibm">Edit Profile</p>
             </div>
         <div>
            
-<button class="button-2">
-            <button class="button-2"><i class="fas fa-laptop-code"></i></button>
-            <button class="button-2"><i class="fas fa-apple-alt"></i></button>
-            <button class="button-2 disabled"><i class="fas fa-th-large"></i></button>
-            <button class="button-2 disabled"><i class="fab fa-css3-alt"></i></button>
-            <button class="button-2 disabled"><i class="fas fa-link"></i></button>
-            <button class="button-2 disabled"><i class="fas fa-images"></i></button>
-        </div>
-      </body>
-   
- 
+
+            <form action="/my-handling-form-page" method="post">
+                <div>
+                  <label for="name">Full Name:</label>
+                  <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                  <label for="mail">Display Name:</label>
+                  <input type="email" id="mail" name="user_mail">
+                  <p>This could be your first name, or a nickname-however you'd like others to refer to you.</p>
+                </div>
+                <div>
+                  <label for="msg">Role:</label>
+                  <textarea id="msg" name="user_message"></textarea>
+                  <p> Student, Mentor, etc. </p>
+                </div>
+                <div>
+                    <label for="msg">Interest:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  <p>Let people know what are some things you enjoy doing in your free time. </p>
+                </div>
+              
+              <div class="button">
+                <button type="submit">Cancel</button>
+                <button type="submit">Save Changes</button>
+              </div>
+            </form>
 
 
 <footer class="row  lightgray h100 wrap-none">
