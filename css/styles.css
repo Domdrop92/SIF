@@ -42,6 +42,9 @@ body{
 .peach{
     background-color: #FFB6B3;
 }
+.lightgray-2{
+  color:#DFE6F5;
+}
 .lightgray{
     background-color: #E9EBF0;
 }
@@ -49,7 +52,13 @@ body{
     font-size: 50px;
 }
 .f36{
-    font-size: 36px;
+  font-size: 36px;
+}
+.f28{
+  font-size: 28px;
+}
+.f18{
+    font-size: 18px;
 }
 .h100{
     height: 100px;
