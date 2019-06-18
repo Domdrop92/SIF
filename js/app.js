@@ -24,7 +24,6 @@ document.getElementById('registerForm').addEventListener('submit', formSubmit);
 //Submit form
 function formSubmit(e) {
   e.preventDefault();
-  db.collection('Users').add({
   // Get Values from the DOM
   let firstName = document.querySelector('#firstNameInput').value;
   let lastName = document.querySelector('#lastNameInput').value;
@@ -32,8 +31,6 @@ function formSubmit(e) {
   let password = document.querySelector('#password', '#repeatePassword').value;
   //   let student = document.querySelector('#student').value;
   //   let mentor = document.querySelector('#mentor').value;
-})
-
 
   //   Form Reset After Submission
   document.getElementById('registerForm').reset();
@@ -41,7 +38,15 @@ function formSubmit(e) {
 
   let userRef = db.collection('Users').doc('userInfo');
 
-  let sendMessage = userRef.set({
+  function sendMessage(firstName, lastName, email, password) {
+    let newFormMessage = formMessage.push();
+    newFormMessage.set({
+      name: name,
+      email: email,
+      password: password,
+    });
+
+  let send = userRef.set({
     firstName: firstName,
     lastName: lastName,
     email: email,
