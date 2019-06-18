@@ -8,7 +8,7 @@ body{
 }
 .container{
     background-color:#E9EBF0
-    height; 100vh;
+    height; 100vh; margin-left: 1rem
 }
 
 /**** START HEADER ****/
@@ -22,14 +22,15 @@ body{
 }
 /**** END HEADER ****/
 
-.boxed{  height: 100px;
+.boxed{  
+    height: 100px;
     width: 500px;
     border: 5px solid #ffffff;
     border-radius: 10px;
     font-weight: 400;
     color: #E897B6;
     text-align: left;
-    font-size: 45px;
+    font-size: 30px;
     font-family: 'IBM Plex Serif', serif;
 }
 
