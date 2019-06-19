@@ -1,3 +1,3 @@
-document.getElementById("myCalendar").onclick= function(){
-    location.href = "calendar.html";
-};
+//document.getElementById("myCalendar").onclick= function(){
+  //  location.href = "calendar.html";
+//};
