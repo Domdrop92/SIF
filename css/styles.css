@@ -5,7 +5,6 @@ font-family: 'Six Caps', sans-serif; */
 body{
     font-family: 'ibm-plex-serif', sans-serif;
     letter-spacing: 1px;
-
 }
 
 .container{
@@ -26,7 +25,6 @@ body{
     height: 75px;;
     width: 200px;
 }
-
 .welcome{
     font-family: 'IBM plex serif', serif;
     color: #999AA7;
@@ -37,16 +35,6 @@ body{
     justify-content: center;
 }
 /**** END HEADER ****/
-
-/* START LOGIN FORM */
-
-
-
-.form-control{
-    padding: 10px;
-    height: 45px
-}
-
 .sub_button{
     background-color: #E9EBF0;
     width: 25%;
@@ -54,9 +42,15 @@ body{
 }
 
 .createAccount{
-    width: 45%;
+    /* width: 45%; */
     margin: 0 auto;
     margin-top: 20px;
+}
+
+/**** START LOGIN FORM ****/
+.form-control{
+    padding: 10px;
+    height: 45px
 }
 
 .modal-content{
@@ -76,25 +70,24 @@ body{
     width: 80px;
     background-color: #FFB6B3;
 }
-
 .input-group-text, .input-group, .btn{
     padding: 5px;
 }
 .custom-radio{
     margin-left: 10px;
 }
-
 /* Border radius and font for buttons and modal */
 .form-control, .sub_button, .submitButton, .createAccount, .input-group-text, .input-group, .btn{
     border-radius: 20px;
     font-family: 'IBM plex serif', serif;
     font-style: italic;
 }
-
-.cancelBtn, .submitBtn{
-    padding: 10px;
+.signin{
+    padding-top: 12px;
+    text-align: center;
 }
-
-
-
-/* END LOGIN FORM */
+.cancelBtn, .submitBtn{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/**** END LOGIN FORM ****/

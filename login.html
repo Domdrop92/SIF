@@ -25,6 +25,7 @@
         <!----- END HEADER ----->
 
         <!----- START LOGIN SECTION ----->
+    <div class="">
         <form class=" d-flex flex-column justify-content-center">
             <div class="form-group">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -37,6 +38,7 @@
             <button type="button" class="btn createAccount" data-toggle="modal" data-target="#newAccountModal">Create
                 Account</button>
         </form>
+    </div>
 
         <!-- Modal For Register Account START-->
         <div class="modal fade" id="newAccountModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -49,19 +51,25 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <!-- NAME, EMAIL, PASSWORD, USER SECTIONS -->
+                    <!-- NAME, EMAIL, PASSWORD, USER SECTIONS , MODAL FOOTER-->
                     <div class="modal-body">
                         <form name="accountForm" id="registerForm">
                             <div class="d-flex flex-column justify-content-center">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><b>Full Name:</b></span>
+                                        <span class="input-group-text"><b>First Name:</b></span>
                                     </div>
                                     <input id="firstNameInput" type="text" aria-label="First name" class="form-control"
                                         placeholder="First" required>
-                                    <input id="lastNameInput" type="text" aria-label="Last name" class="form-control"
-                                        placeholder="Last" required>
+                                    
                                 </div>
+                                <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><b>Last Name:</b></span>
+                                        </div>
+                                        <input id="lastNameInput" type="text" aria-label="Last name" class="form-control"
+                                        placeholder="Last" required>
+                                    </div>
 
                                 <div class="input-group">
                                     <div class="input-group-prepend">
@@ -86,7 +94,6 @@
                                     <input type="text" aria-label="Repeat Password" class="form-control"
                                         name="Repeat Password" placeholder="Repeat Password" id="repeatePassword" required>
                                 </div>
-
                                 <!-- <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text"><b>I am a:</b></span>
@@ -105,13 +112,14 @@
                             </div>
 
                             <div class="signin">
-                                <p>Already have an account? <a href="#">Sign in</a>.</p>
+                                <p>Already have an account? <a href="login.html">Sign in</a>.</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn cancelBtn" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn submitBtn" id="submit">Submit</button>
+                                <button type="button" class="btn cancelBtn" data-dismiss="modal"><b>Cancel</b></button>
+                                <button type="submit" class="btn submitBtn" id="submit"><b>Submit</b></button>
                             </div>
                         </form>
+                    <!-- END NAME, EMAIL, PASSWORD, USER SECTIONS , MODAL FOOTER-->
                     </div>
                 </div>
             </div>
@@ -123,7 +131,7 @@
     <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
 
-    <!-- <script>
+    <script>
         // Your web app's Firebase configuration
         var firebaseConfig = {
             apiKey: "AIzaSyBfMKU92wbOsaux9enmoBN0xpdo3__de5E",
@@ -136,7 +144,7 @@
         };
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
-    </script> -->
+    </script>
 
     <script src="js/scripts.js"></script>
     <script src="js/app.js"></script>
