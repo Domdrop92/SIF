@@ -26,28 +26,17 @@
     <form autocomplete="off" spellcheck="false" id="code-form" action="exercise_js.asp?filename=exercise_js_switch1" method="post" target="_blank">
     <div class="exercisewindow">
         <p>
-            <code class="codespan">switch</code>
-            "stuff here"
-            <code class="codespan">fruits</code>
-            "here is more stuff"
-            <code class="codespan">fruits</code>
-            "more stuff here"
+            <code class="codespan">Fill in the blanks for what the code for each statement is.</code>
+            
         </p>
         <div class="exercisecontainer">
             <pre>
-            <input name="ex1" maxlength="" style="">
-            (fruits) {
-                
+            "Heading #1"    
+            <input name="x" maxlength="" style="">
+            "Heading #2"
             <input name="ex2" maxlength="" style="">
-             "Banana":
-                alert("hello")
-                break;
-                
+            "Heading #3"    
             <input name="ex3" maxlength="" style="">
-             "Apple":
-                alert("welcome")
-                break;
-        }
         
         </pre>
         </div>
@@ -60,13 +49,17 @@
     </script>
 
     <script>
-    function checkOnIt() {
-
-        document.getElementById("demo").innerHTML = alert('You are about to check to see if this answer is right');
-
+    function checkOnIt() { 
+    var input = "hello";
+    if (input === 'hello') {
+        alert("right");
+    }else  {
+        prompt="that was wrong";
+    }
+ 
     }
     function submitIt() {
-        document.getElementById("demo").innerHTML = alert('You are about to submit this assignment');
+        // document.getElementById("demo").innerHTML = prompt("submitted"));
     }
     </script>
 

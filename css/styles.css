@@ -1,5 +1,18 @@
+@import url(“https://use.typekit.net/xhg4tix.css“);
+
 button {
-    color:blue;
+    display: flex;
+    justify-content: center;
+    color:rgb(79, 79, 82);
+    border-radius: 50px;
+    width: 220px;
+    padding: 10px;
+    margin: 15px;
+    font-family:  mongoose, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
 }
 form {
     display: box;
@@ -25,6 +38,9 @@ body {
 
 }
 h1{
+    font-family:  mongoose, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     display: box;
     width: 100px;
     margin: auto;
