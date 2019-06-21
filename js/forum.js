@@ -1,25 +1,4 @@
-document.getElementById('postForm').addEventListener('submitButton', submitPost);
-  
-  function submitPost(e) {
-      e.preventDefault();
-
-      let name = postForm['formUserName'].value;
-      let title = postForm['formTitle'].value;
-      let post = postform['messageText'].value;
-
-      document.getElementById('postForm').reset();
-
-      const postId = 
-      db.collection('forumPosts').add({
-          name,
-          title,
-          post,
-          date: firebase.database.ServerValue.TIMESTAMP
-      });
-  };
-
-
-
+// Initialize Firebase with a "default" Firebase project
 
 let posts = [
     {

@@ -22,7 +22,7 @@ console.log(firebase);
 //listen for submit event
 document.getElementById('registerForm').addEventListener('submit', formSubmit);
 
-//Submit form
+//Submit form FOR REGISTRATION
 function formSubmit(e) {
   e.preventDefault();
   // Get Values from the DOM
@@ -63,3 +63,27 @@ function formSubmit(e) {
     }); 
   }
 )}
+// END REGISTRATION
+
+//START FORUM PAGE
+document.getElementById('postForm').addEventListener('submitButton', submitPost);
+  
+  function submitPost(e) {
+      e.preventDefault();
+
+      let name = postForm['formUserName'].value;
+      let title = postForm['formTitle'].value;
+      let post = postform['messageText'].value;
+
+      document.getElementById('postForm').reset();
+
+      const postId = 
+      db.collection('forumPosts').add({
+          name,
+          title,
+          post,
+          date: firebase.database.ServerValue.TIMESTAMP
+      }).then(res => {
+        console.log(res);
+    })
+  }
