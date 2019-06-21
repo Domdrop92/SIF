@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
+/* font-family: 'IBM Plex Serif', serif;
+font-family: 'Six Caps', sans-serif; */
+
 body{
     font-family: 'ibm-plex-serif', sans-serif;
     letter-spacing: 1px;
@@ -10,7 +14,17 @@ body{
     flex-direction: column;
 }
 
-
+/**** START HEADER ****/
+.header{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.GITgirls-logo{
+    margin-top: 100px;
+    height: 75px;;
+    width: 200px;
+}
 .welcome{
     font-family: 'IBM plex serif', serif;
     color: #999AA7;
