@@ -12,78 +12,56 @@ let firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
-const auth = firebase.auth();
+// const auth = firebase.auth();
 
 console.log(firebase);
 
 //Reference for form collection
 // let formMessage = firebase.database().ref('Users');
 
-//listen for submit event
-document.getElementById('registerForm').addEventListener('submit', formSubmit);
+// //listen for submit event
+// document.getElementById('registerForm').addEventListener('submit', formSubmit);
 
-//Submit form FOR REGISTRATION
-function formSubmit(e) {
-  e.preventDefault();
-  // Get Values from the DOM
-  let first = registerForm['firstNameInput'].value;
-  let last = registerForm['lastNameInput'].value;
-  let email = registerForm['emailInput'].value;
-  let password = registerForm['password'].value;
-  //   let student = document.querySelector('#student').value;
-  //   let mentor = document.querySelector('#mentor').value;
+// //Submit form FOR REGISTRATION
+// function formSubmit(e) {
+//   e.preventDefault();
+//   // Get Values from the DOM
+//   let first = registerForm['firstNameInput'].value;
+//   let last = registerForm['lastNameInput'].value;
+//   let email = registerForm['emailInput'].value;
+//   let password = registerForm['password'].value;
+//   //   let student = document.querySelector('#student').value;
+//   //   let mentor = document.querySelector('#mentor').value;
 
-  //   Form Reset After Submission
-  document.getElementById('registerForm').reset();
+//   //   Form Reset After Submission
+//   document.getElementById('registerForm').reset();
 
-  const userId = 
-  db.collection('Users').add({
-    first,
-    last, 
-    email,
-    password
-  }).then(res => {
-    console.log(res);
-  })
+//   const userId = 
+//   db.collection('Users').add({
+//     first,
+//     last, 
+//     email,
+//     password
+//   }).then(res => {
+//     console.log(res);
+//   })
+// }
 
   // login
-  const loginForm = document.querySelector('#login-form');
-  loginForm.addEventListener('login-submit', (e) => {
-    e.preventDefault();
+//   const loginForm = document.querySelector('#login-form');
+//   loginForm.addEventListener('login-submit', (e) => {
+//     e.preventDefault();
   
-    // get user info
-    const email = loginForm['login-email'].value;
-    const password = loginForm['login-password'].value;
+//     // get user info
+//     const email = loginForm['login-email'].value;
+//     const password = loginForm['login-password'].value;
 
-    // log the user in
-    db.collection(email, password).then((cred) => {
-      console.log(cred.user);
-      // close the signup modal & reset form
-      loginForm.reset();
-    }); 
-  }
-)}
+//     // log the user in
+//     db.collection(email, password).then((cred) => {
+//       console.log(cred.user);
+//       // close the signup modal & reset form
+//       loginForm.reset();
+//     }); 
+//   }
+// )}
 // END REGISTRATION
-
-//START FORUM PAGE
-document.getElementById('postForm').addEventListener('submitButton', submitPost);
-  
-  function submitPost(e) {
-      e.preventDefault();
-
-      let name = postForm['formUserName'].value;
-      let title = postForm['formTitle'].value;
-      let post = postform['messageText'].value;
-
-      document.getElementById('postForm').reset();
-
-      const postId = 
-      db.collection('forumPosts').add({
-          name,
-          title,
-          post,
-          date: firebase.database.ServerValue.TIMESTAMP
-      }).then(res => {
-        console.log(res);
-    })
-  }
