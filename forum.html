@@ -11,9 +11,8 @@
     <title>Git Girls</title>
 </head>
 
-<body onload="loadForum();">
+<body class="container" onload="loadForum();">
     <!----- FORUM PAGE ----->
-    <div class="container">
         <!----- START HEADER ----->
         <header class="header row">
             <a href="#" class="offset-10">
@@ -21,9 +20,15 @@
             </a>
         </header>
         <!----- END HEADER ----->
+        <nav class="row nav nav-pills flex-row justify-content-around">
+            <a class="nav-item nav-link active" href="#">Forum</a>
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Events</a>
+            <a class="nav-item nav-link" href="#">Inbox</a>
+        </nav>
 
         <!----- START CREATE BUTTONS AND SEARCH BAR ----->
-    <div class="d-flex flex-row justify-content-center askBar">
+    <div class="row d-flex flex-row justify-content-center askBar">
         <!-- ASK BUTTON W/ MODAL -->
         <button type="button" class="askButton offset-1" data-toggle="modal" data-target="#postModal">
             Post
@@ -81,31 +86,7 @@
         <!----- END POSTED Q SECTION ----->
 
         <!----- START OF NAVBAR ----->
-        <nav class="row navbar fixed-bottom">
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler offset-11" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavbar">
-                <span><i class="fas fa-angle-up"></i></span>
-            </button>
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="collapsibleNavbar">
-                <ul class="navbar-nav flex-row">
-                    <li class="nav-item">
-                        <a class="nav-link d-flex justify-content-center" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex justify-content-center" href="#">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex justify-content-center" href="#">Forum</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex justify-content-center" href="#">Inbox</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+
  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>

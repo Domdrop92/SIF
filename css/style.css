@@ -1,18 +1,13 @@
-/* @import url(“https://use.typekit.net/xhg4tix.css“); */
-/*font-family: mongoose, sans-serif;
-font-family: ibm-plex-serif, sans-serif;*/
+
 
 body{
     font-family: ibm-plex-serif, sans-serif;
     letter-spacing: 1px;
+    height: 100vh;
+    background-color:#E9EBF0;
 }
-.container{
-    background-color:#E9EBF0
-    
-}
-
 /**** START HEADER ****/
-.header, .askBar{
+.header, .askBar, .nav{
     padding: 15px;
     border-bottom: solid thin #999AA7;
 }
@@ -21,7 +16,19 @@ body{
     width: 50px;
 }
 /**** END HEADER ****/
-
+/**** START NAV BAR ****/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #E897B6;
+}
+.nav-pills .nav-link{
+    border-radius: 15px;
+}
+.nav-link{
+    background-color: #FFB6B3;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+/**** END NAV BAR ****/
 /**** POST BAR AND MODAL ****/
 .modal-content{
     background-color:#999AA7;
@@ -49,30 +56,4 @@ body{
 }
 /**** SEARCH BAR ****/
 
-.comments{
-        height: 500px;;
-}
-
-/**** START NAV BAR ****/
-.navbar{
-    background-color: #999AA7;
-    height: 90px;
-    padding-top: 0px;
-    margin-top: 0px;
-}
-
-.navbar-toggler{
-    margin-bottom: -10px;
-}
-
-.nav-link{
-    background-color: #FFB6B3;
-    color: #FFFFFF;
-    font-weight: bold;
-    margin: 5px;
-    padding: 0;
-    width: 80px;
-    height: 50px;
-    border-radius: 15px;
-}
 
