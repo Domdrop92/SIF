@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/forum.css">
+    <title>Git Girls</title>
+</head>
+
+<body class="container" onload="loadForum();">
+    <!----- FORUM PAGE ----->
+        <!----- START HEADER ----->
+        <header class="header row">
+            <a href="#" class="offset-10">
+                <img src="img/GITgirls-logo.png" class=" GITgirls-logo" alt="Uppercase grey G and lowecase pink G">
+            </a>
+        </header>
+        <!----- END HEADER ----->
+        <nav class="row nav nav-pills flex-row justify-content-around">
+            <a class="nav-item nav-link active" href="#">Forum</a>
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Events</a>
+            <a class="nav-item nav-link" href="#">Inbox</a>
+        </nav>
+
+        <!----- START CREATE BUTTONS AND SEARCH BAR ----->
+    <div class="row d-flex flex-row justify-content-center askBar">
+        <!-- ASK BUTTON W/ MODAL -->
+        <button type="button" class="askButton offset-1" data-toggle="modal" data-target="#postModal">
+            Post
+        </button>
+        <div class="modal fade" id="postModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLabel">New Question</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="postForm">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">
+                                    Name:
+                                </label>
+                                <input type="text" class="form-control" id="formUserName">
+                                <label for="recipient-name" class="col-form-label">
+                                    Subject:
+                                </label>
+                                <input type="text" class="form-control" id="formTitle">
+                            </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Text:</label>
+                                    <textarea class="form-control" id="messageText"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="submitButton" id="submitButton">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END ASK BUTTON W/ MODAL -->
+            <!-- SEARCH BAR -->
+            <input class="form-control offset-1 searchBar" type="search" placeholder="Search..." aria-label="Search">
+            <!-- END SEARCH BAR -->
+        </div>
+        <!----- END CREATE BUTTONS AND SEARCH BAR ----->
+
+        <!----- START POSTED Q SECTION ----->
+        <div class="questions">
+            <div class="posts" id="posts">
+                <h4 id="postTitle"></h4>
+
+                <p id="postText"></p>
+
+            </div>
+
+        </div>
+        <!----- END POSTED Q SECTION ----->
+
+        <!----- START OF NAVBAR ----->
+
+ <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/forum.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

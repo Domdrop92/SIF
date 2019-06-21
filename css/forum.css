@@ -1,0 +1,59 @@
+
+
+body{
+    font-family: ibm-plex-serif, sans-serif;
+    letter-spacing: 1px;
+    height: 100vh;
+    background-color:#E9EBF0;
+}
+/**** START HEADER ****/
+.header, .askBar, .nav{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+}
+.GITgirls-logo{
+    height: 50px;
+    width: 50px;
+}
+/**** END HEADER ****/
+/**** START NAV BAR ****/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #E897B6;
+}
+.nav-pills .nav-link{
+    border-radius: 15px;
+}
+.nav-link{
+    background-color: #FFB6B3;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+/**** END NAV BAR ****/
+/**** POST BAR AND MODAL ****/
+.modal-content{
+    background-color:#999AA7;
+}
+.modal-header, .modal-body{
+    border-bottom: thin solid #FFB6B3;
+    color: #FFFFFF;
+}
+.askButton, .submitButton{
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+}
+.askButton,.submitButton{
+    width: 80px;
+    background-color: #FFB6B3;
+}
+/**** END POST BAR AND MODAL ****/
+/**** SEARCH BAR ****/
+.searchBar{
+    width: 125px;
+    border-radius: 15px;
+}
+/**** SEARCH BAR ****/
+
+
