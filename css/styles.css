@@ -97,16 +97,9 @@ body{
     cursor: pointer;
   }
   .button-2 {
-    background-color: #FFFFFF; /* white */
-    border: none;
-    color: #FFB6B3;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 40px;
-    margin: 4px 2px;
-    cursor: pointer;
+  display:flex;
+  padding: 15px;
+  
   }
   .disabled {
     opacity: 0.4;
