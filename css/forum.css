@@ -37,14 +37,14 @@ body{
     border-bottom: thin solid #FFB6B3;
     color: #FFFFFF;
 }
-.askButton, .submitButton{
+.askButton, .submit{
     color: #FFFFFF;
     letter-spacing: 1px;
     border: none;
     border-radius: 15px;
     padding: 3px;
 }
-.askButton,.submitButton{
+.askButton,.submit{
     width: 80px;
     background-color: #FFB6B3;
 }
