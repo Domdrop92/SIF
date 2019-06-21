@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Test Task Page</title>
+
+</head>
+<body style="margin-bottom: 10px;">
+    <div style="background-color: lightblue;color:white;" >
+    <h1 class="task_header">Task 1</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt molestias explicabo odio itaque non sit, ratione id. Omnis nam, quos ipsa nemo reprehenderit corrupti sit facere accusamus eveniet, accusantium nesciunt!</p>
+    <!-- <p id="demo"></p>
+    <div id="codeeditor"></div>   
+    <script>
+      var editor = CodeMirror(document.getElementById("codeeditor"));
+      </script> -->
+<!-- // this will be the text box stuff// -->
+</div>
+    <form autocomplete="off" spellcheck="false" id="code-form" onsubmit="return false" method="post" target="_blank">
+    <div class="exercisewindow">
+        <p>
+            <code class="codespan">Fill in the blanks for what the code for each statement is.</code>
+            
+        </p>
+        <div class="exercisecontainer">
+            <pre>
+            "Heading #1"    
+            <input id="ex1" name="ex1" value="<h1>Heading #1</h1>">
+            "Heading #2"
+            <input id="ex2" name="ex2" value="<h2>Heading #2</h2>">
+            "Heading #3"    
+            <input id="ex3" name="ex3" value="<h3>Heading #3</h3>">
+        
+        </pre>
+        </div>
+        <br>
+        <!-- <button type="submit" >Submit answer</button> -->
+    </div>
+</form>
+    <button class="Check It" onclick="checkOnIt()">Check Answer</button>
+    <button class="Submit It" onclick="submitIt()">Submit</button>
+    </script>
+
+    <script>
+
+    function checkOnIt() {
+        var ex1 = document.getElementById("ex1").value;
+        var ex2 = document.getElementById("ex2").value;
+        var ex3 = document.getElementById("ex3").value;
+        // console.log('checking on it', ex1 );
+        var numCorrect = checkString(ex1, ex2, ex3);
+        console.log('You got ' + numCorrect + ' out of 3');
+        if (numCorrect === 3) {
+            console.log('Great Job!!!');
+        }
+    }
+    function checkString(ex1="", ex2="", ex3="") {
+        var correct=0;
+        if (ex1 === '<h1>Heading #1</h1>') {
+           alert("First answer is right"); 
+            correct++;
+        }
+        if (ex2 === '<h2>Heading #2</h2>') {
+            alert("Second answer is right");
+            correct++;
+        }
+        if (ex3 === '<h3>Heading #3</h3>') {
+            alert("Third answer is right");
+            correct++;
+        }
+        return correct;
+    }
+
+  
+    function submitIt() {
+       window.location= "#";
+    }
+    </script>
+
+    <footer>
+        <a href="https://www.w3schools.com/"><i class="fas fa-asterisk"></i></a>
+    </footer>
+
+</body>
+</html>

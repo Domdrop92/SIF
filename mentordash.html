@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link ref="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Mentor Dashboard</title>
+
+
+    <style>
+        .dropbtn {
+              background-color: #999AA7;
+              border-radius: 25px;
+              color: white;
+              padding: 28px;
+              font-size: 25px;
+              border: none;
+              width: 80%;
+              margin: auto;
+            }
+            
+        .dropdown {
+              position: relative;
+              display: block;
+              text-align: center;
+              
+            }
+            
+        .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f1f1f1;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+        .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              font-size: 25px;
+            }
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color:#E897B6 ;}
+
+        i {
+        border: solid white;
+        border-width: 0 3px 4px 0;
+        display: inline-block;
+        padding: 5px;
+        margin-bottom: 2%;
+        
+        }
+
+        .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+}
+        .font-stuff {
+            font-family: mongoose, sans-serif;
+            color: #999AA7;
+        }
+
+        </style>
+
+</head>
+<!----- START HEADER ----->
+<header class="header row">
+        <a href="#" class="offset-10">
+             <img src="GITgirls-logo.png" width="50px" text-align="right" >
+         </a>
+        </header>
+<!----- END HEADER ----->
+
+<body style= "background-color: #FFFFFF">
+    <!-- This button will be the link to the profile page -->
+
+    <div class="row">
+      <img class="pic"src="teacher-pic.jpg"  alt="profilepicone">
+    </div>
+      
+
+    <h1 class="font-stuff">Daphne Hughes</h1>
+    <div class="btn-group">
+    <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn" >Course #1  <i class="arrow down"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Student #1</a>
+              <a href="#">Student #2</a>
+              <a href="#">Student #3</a>
+              <a href="#">Student #4</a>
+              <a href="#">Student #5</a>
+              <a href="#">Student #6</a>
+            </div>
+        </div>
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Course #2  <i class="arrow down"></i></button>
+             <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Student #1</a>
+                  <a href="#">Student #2</a>
+                  <a href="#">Student #3</a>
+                  <a href="#">Student #4</a>
+                  <a href="#">Student #5</a>
+                  <a href="#">Student #6</a>
+                </div>
+        </div>     
+            
+    <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Course #3  <i class="arrow down"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">Student #1</a>
+                      <a href="#">Student #2</a>
+                      <a href="#">Student #3</a>
+                      <a href="#">Student #4</a>
+                      <a href="#">Student #5</a>
+                      <a href="#">Student #6</a>
+                    </div>
+        </div>           
+
+    <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Course #4  <i class="arrow down"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Student #1</a>
+                  <a href="#">Student #2</a>
+                  <a href="#">Student #3</a>
+                  <a href="#">Student #4</a>
+                  <a href="#">Student #5</a>
+                  <a href="#">Student #6</a>
+                </div>
+        </div>       
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>
