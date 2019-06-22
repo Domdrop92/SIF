@@ -11,162 +11,201 @@
     <title>Git Girls</title>
 </head>
 
-<body>
-    <div class="container">
-        <!----- START HEADER ----->
-        <header class="header row">
-            <a href="#" class="offset-10">
-                <img src="img/GITgirls-logo.png" alt="Uppercase grey G and lowecase pink G" class="GITgirls-logo">
-        </header>
-        <!----- END HEADER ----->
+<body class="container">
+    <!----- START HEADER ----->
+    <header class="header row">
+        <a href="#" class="offset-10">
+            <img src="img/GITgirls-logo.png" alt="Uppercase grey G and lowecase pink G" class="GITgirls-logo">
+    </header>
+    <!----- END HEADER ----->
+    <div class="row">
+        <div class="col-3">
+            <img class="pic" src="img/profilepictwo.jpg" alt="profilepic">
+        </div>
+        <div class="col-9">
+            <div class="row">
+                <h2 class="gray ibm">
+                    Catherine Price
+                </h2>
+            </div>
+             <div class="row">
+                <h3 class="pink sixcaps">
+                    Mentor
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex flex-row justify-content-center">
+        <button class="createButton">
+            <i class="fas fa-plus" data-toggle="modal" data-target="#addEventModal"></i>
+        </button>
+        <button class="editButton">
+            <i class="fas fa-pencil-alt"></i>
+        </button>
+    </div>
+    <div class="modal" id="addEventModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Create Event</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                <div class="modal-body">
+                    <form id="eventForm">
+                        <div class="form-group">
+                            <label for="eventName">
+                                Event Name
+                            </label>
+                            <input type="name" class="form-control" id="eventName" placeholder="Event Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">
+                                Month
+                            </label>
+                            <select class="form-control" id="inputMonth">
+                                <option>January</option>
+                                <option>February</option>
+                                <option>March</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>October</option>
+                                <option>November</option>
+                                <option>December</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">
+                                Day
+                            </label>
+                            <select class="form-control" id="day">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                Event Description
+                            </label>
+                                <textarea class="form-control" id="description" rows="3">
 
-        <div class="row">
-            <div class="col-3">
-                <img class="pic" src="img/profilepictwo.jpg" alt="profilepic">
-            </div>
-            <div class="col-9">
-                <div class="row">
-                    <p class="f36 gray ibm">Catherine Price</p>
-                </div>
-                <div class="row">
-                    <p class="f36 pink sixcaps">Mentor</p>
-                </div>
-            </div>
-            <div class="row d-flex flex-row justify-content-center">
-                <button class="createButton offset-1"><i class="fas fa-plus" data-toggle="modal"
-                        data-target="#addEventModal"></i></button>
-                <div class="modal" id="addEventModal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Create Event</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
+                                </textarea>
+                        </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                    Close
+                                </button>
+                                <button type="submit" class="btn btn-primary" id="submit">
+                                    Submit
                                 </button>
                             </div>
-                            <div class="modal-body">
-                                <form id="eventForm">
-                                    <div class="form-group">
-                                        <label for="eventName">Event Name</label>
-                                        <input type="name" class="form-control" id="eventName" placeholder="Event Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Month</label>
-                                        <select class="form-control" id="inputMonth">
-                                            <option>January</option>
-                                            <option>February</option>
-                                            <option>March</option>
-                                            <option>April</option>
-                                            <option>May</option>
-                                            <option>June</option>
-                                            <option>July</option>
-                                            <option>August</option>
-                                            <option>September</option>
-                                            <option>October</option>
-                                            <option>November</option>
-                                            <option>December</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Day</label>
-                                        <select class="form-control" id="day">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                            <option>6</option>
-                                            <option>7</option>
-                                            <option>8</option>
-                                            <option>9</option>
-                                            <option>10</option>
-                                            <option>11</option>
-                                            <option>12</option>
-                                            <option>13</option>
-                                            <option>14</option>
-                                            <option>15</option>
-                                            <option>16</option>
-                                            <option>17</option>
-                                            <option>18</option>
-                                            <option>19</option>
-                                            <option>20</option>
-                                            <option>21</option>
-                                            <option>22</option>
-                                            <option>23</option>
-                                            <option>24</option>
-                                            <option>25</option>
-                                            <option>26</option>
-                                            <option>27</option>
-                                            <option>28</option>
-                                            <option>29</option>
-                                            <option>30</option>
-                                            <option>31</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleFormControlTextarea1">Event Description</label>
-                                        <textarea class="form-control" id="Description" rows="3"></textarea>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary" id="submit">Submit</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="editButton offset-5"><i class="fas fa-pencil-alt"></i></button>
-            </div>
-            <div class="boxed">
-                August
-            </div>
-
-            <div class="row d-flex flex-row justify-content-center">
-                <div class="col box">
-                    12
-                    Meet & Greet
-                </div>
-                <div class="col box-2">
-                    21
-                    Kick-Off
-                </div>
-            </div>
-
-            <div class="boxed">
-                September
-            </div>
-
-            <div class="row d-flex flex-row justify-content-center">
-                <div class="col box-3">
-                    1
-                    Makerspace
-                </div>
-                <div class="col box-4">
-                    15
-                    Hack-a-thon
-                </div>
-            </div>
-
-            <div class="boxed">
-                October
-            </div>
-
-            <div class="row d-flex flex-row justify-content-center">
-                <div class="col box-5">
-                    4
-                    Cookin' up some code
-                </div>
-                <div class="col box-6">
-                    17
-                    Power Hour
-                </div>
-                <div class="col box-7">
-                    28
-                    Show case
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
+<div>
+    <div class="row d-flex justify-content-start">
+        <h4 class="boxed">
+            <b>August</b>
+        </h4>
+    </div>
+
+    <div class="row d-flex flex-row justify-content-center">
+        <div class="col-6 box">
+            <h4 class="dates">
+                12
+            </h4>
+            <h5> 
+                <b>Meet & Greet</b>
+            </h5>
+            <p> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit In!
+            </p>
+        </div>
+        <div class="col-5 box-2">
+            <h4  class="dates">
+                21
+            </h4>
+            <h5>
+               <b>Kick-Off</b>
+            </h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur elit, blanditiis!
+            </p>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-start">
+        <h4 class="boxed">
+            <b>September</b>
+        </h4>
+    </div>
+
+    <div class="row d-flex flex-row justify-content-center">
+        <div class="col box-3">
+            1
+            Makerspace
+        </div>
+        <div class="col box-4">
+            15
+            Hack-a-thon
+        </div>
+    </div>
+
+    <div class="row d-flex flex-row justify-content-center">
+        <div class="boxed">
+            October
+        </div>
+    </div>
+    <div class="row d-flex flex-row justify-content-center">
+        <div class="col box-5">
+            4
+            Cookin' up some code
+        </div>
+        <div class="col box-6">
+            17
+            Power Hour
+        </div>
+        <div class="col box-7">
+            28
+            how case
+        </div>
+    </div>
+</div>
 
 
         <footer class="row  lightgray h100 wrap-none">
@@ -180,7 +219,8 @@
         <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
 
-        <script src="js/mentorApp.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/calendarform.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>

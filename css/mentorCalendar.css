@@ -5,11 +5,10 @@ font-family: 'Six Caps', sans-serif; */
 body{
     font-family: ibm-plex-serif, sans-serif;
     letter-spacing: 1px;
-}
-.container{
-    background-color:#E9EBF0
+    background-color:#E9EBF0;
     height: 100vh;
 }
+
 
 /**** START HEADER ****/
 .header{
@@ -22,20 +21,22 @@ body{
 }
 /**** END HEADER ****/
 
-.createButton {
-    background-color: #FFFFFF; /* white */
+.createButton, .editButton{
+    width: 40%;
     border: none;
+    border-radius: 15px;
     color:#999AA7;
-    padding: 15px 32px;
-    text-align: center;
+    padding: 10px 32px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
+     background-color: #FFFFFF;
+     font-size: 20px;
+     margin: 4px 4px;
+    /* text-align: center;  using justify-content-center you dont need this */
+    /* display: inline-block; using bootstrap and the flex classes you dont need this*/
+    /* cursor: pointer; I am not sure what you are trying to do with the cursor it doesnt seem to change anything*/
   }
-  .editButton {
-    background-color: #FFFFFF; /* white */
+  /* .editButton { Because their styles were identical you did not need to style them twice. I added the edit button class next to the create button one above to cut down on lines of code.
+    background-color: #FFFFFF;
     border: none;
     color: #999AA7;
     padding: 15px 32px;
@@ -45,45 +46,53 @@ body{
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
-  }
-.boxed{  height: 100px;
-    width: 500px;
-    border: 5px solid #ffffff;
+  } */
+.boxed{ 
     border-radius: 10px;
-    font-weight: 400;
     color: #E897B6;
-    text-align: left;
-    font-size: 45px;
-    font-family: ibm-plex-serif, sans-serif;
+    padding: 10px;
+     /* height: 100px; height was making the title of center. using padding adds that space you want without taking away the center.*/
+    /* width: 500px; you do not need to add width when you use row in html
+    border: 5px solid #ffffff; */
+    /* font-weight: 400;  Using a <b> tag around an item will make it bold*/
+    /* text-align: left; With flex you do not need text align in your CSS
+    font-size: 45px; try to use your tags in html for sizing cuts out need in CSS*/
+    /* font-family: ibm-plex-serif, sans-serif; */
+}
+
+.dates{
+    padding-top: 5px;
 }
 
 .box{
+    margin-left: 5px;
     height: 200px;
-    width: 200px;
-    border: 5px solid #ffffff;
     background: #e897b6;
     border-radius: 10px;
-    font-weight: 400;
     color: #ffffff;
-    text-align: left;
-    font-size: 25px;
-    font-family: mongoose sans-serif;
-    word-wrap: break-word;
+    /* width: 200px; */
+    /* border: 5px solid #ffffff; */
+    /* font-weight: 400; */
+    /* text-align: left; */
+    /* font-size: 25px; */
+    /* font-family: mongoose sans-serif; */
+    /* word-wrap: break-word; */
 }
 
 
 .box-2{
+    margin-left: 5px;
     height: 200px;
-    width: 100px;
-    border: 5px solid #ffffff;
     border-radius: 10px;
     background-color: #999AA7;
-    font-weight: 400;
     color: #E897B6;
-    text-align: center;
-    font-size: 25px;
-    font-family: ibm-plex-serif, sans-serif;
-    word-wrap: break-word;
+    /* width: 100px; */
+    /* border: 5px solid #ffffff; */
+    /* font-weight: 400; */
+    /* text-align: center; */
+    /* font-size: 25px; */
+    /* font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word; */
 }
 
 .box-3{
@@ -180,12 +189,12 @@ body{
 .lightgray{
     background-color: #E9EBF0;
 }
-.f50{
+/* .f50{
     font-size: 50px;
 }
 .f36{
     font-size: 36px;
-}
+} */
 .h100{
     height: 100px;
 }
