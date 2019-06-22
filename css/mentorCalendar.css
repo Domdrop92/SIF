@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
+/* font-family: 'IBM Plex Serif', serif;
+font-family: 'Six Caps', sans-serif; */
+
+body{
+    font-family: ibm-plex-serif, sans-serif;
+    letter-spacing: 1px;
+}
+.container{
+    background-color:#E9EBF0
+    height: 100vh;
+}
+
+/**** START HEADER ****/
+.header{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+}
+.GITgirls-logo{
+    height: 50px;
+    width: 50px;
+}
+/**** END HEADER ****/
+
+.createButton {
+    background-color: #FFFFFF; /* white */
+    border: none;
+    color:#999AA7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .editButton {
+    background-color: #FFFFFF; /* white */
+    border: none;
+    color: #999AA7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.boxed{  height: 100px;
+    width: 500px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: left;
+    font-size: 45px;
+    font-family: ibm-plex-serif, sans-serif;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #ffffff;
+    background: #e897b6;
+    border-radius: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    font-size: 25px;
+    font-family: mongoose sans-serif;
+    word-wrap: break-word;
+}
+
+
+.box-2{
+    height: 200px;
+    width: 100px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    background-color: #999AA7;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+}
+
+.box-3{
+    height: 250px;
+    width: 50;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    background-color: #DFE6F5;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+}
+ .box-4{
+        height: 250px;
+        width: 150px;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        background-color: #e9ebf0;
+        font-weight: 400;
+        color: #E897B6;
+        text-align: center;
+        font-size: 25px;
+        font-family: ibm-plex-serif, sans-serif;
+        word-wrap: break-word;
+ }
+
+
+ .box-5{
+    height: 200px;
+    width: 100;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffb6b3;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+ }
+
+.box-6{
+        height: 200px;
+        width: 100px;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        background-color: #e9ebf0;
+        font-weight: 400;
+        color: #E897B6;
+        text-align: center;
+        font-size: 25px;
+        font-family: ibm-plex-serif, sans-serif;
+        word-wrap: break-word;
+}
+
+.box-7{
+    height: 200px;
+    width: 100px;
+    border: 5px solid #FFffff;
+    border-radius: 10px;
+    background-color:#999AA7;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+}
+
+.pic{
+    height: 75px;
+    background-color:gray;
+    border-color: black;
+    border-radius: 45px;
+}
+.pink{
+    color: #E897B6;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.fwhite{
+    color:white;
+}
+.gray{
+    color: #999AA7;
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.lightgray{
+    background-color: #E9EBF0;
+}
+.f50{
+    font-size: 50px;
+}
+.f36{
+    font-size: 36px;
+}
+.h100{
+    height: 100px;
+}
+.h80{
+    height: 80px;
+    width: 100px;
+}
+.h80w150{
+    height: 80px;
+    width: 150px;
+}
+.bold{
+    font-weight: bold;
+}
+.sixcaps{
+    font-family: 'Six Caps', sans-serif;
+}
+.ibm{
+    font-family: 'IBM Plex Serif', serif;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
