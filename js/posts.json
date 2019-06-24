@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Amber",
+        "title": "HTML Question",
+        "Date": "8-25-19",
+        "post": "I wanted to know what HTML stood for?",
+        "isAnswered": true,
+        "comments": [
+            {
+                "name": "Cynthia",
+                "date": "8-26-19",
+                "answer": "It stands for Hypertext Markup Language."
+            }
+        ]
+    },
+    {
+        "name": "Tameka",
+        "title": "What is a Var?",
+        "Date": "9-10-19",
+        "post": "So I am just getting into JS and don't get Var can someone help?",
+        "isAnswered": true,
+        "comments": [
+            {
+                "name": "Hannah",
+                "date": "9-13-19",
+                "answer": "Var in JS declares a variable. Which you use to store information."
+            }
+        ]
+    }
+]
