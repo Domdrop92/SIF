@@ -11,38 +11,33 @@
     <title>Login Page GG</title>
 </head>
 
-<body>
-
-<div class="container">
+<body class="container d-flex flex-column">
     <!----- START HEADER ----->
-    <div class="header">
+    <div class="header d-flex justify-content-center">
         <a href="#">
             <img src="img/GITgirls-logolong.png" class=" GITgirls-logo"
                 alt="Uppercase grey GIT and lowecase pink girls">
         </a>
     </div>
-    <h4 class="welcome">Welcome</h4>
+    <h4 class="welcome d-flex justify-content-center">Welcome!</h4>
     <!----- END HEADER ----->
 
     <!----- START LOGIN SECTION ----->
-    <div class="">
-        <form class="d-flex flex-column justify-content-center" id="login-form">
-            <div class="form-group">
-                <input type="email" class="form-control" id="login-email" aria-describedby="emailHelp"
-                    placeholder="Enter email">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" id="login-password" placeholder="Password">
-            </div>
-            <button type="submit" class="btn sub_button" id="login-submit">
-                Submit
-            </button>
-            <button type="button" class="btn createAccount" data-toggle="modal" data-target="#newAccountModal">
-                Create Account
-            </button>
-        </form>
-    </div>
-        <!-- Modal For Register Account START-->
+    <form class="d-flex flex-column justify-content-center" name="login" id="login-form">
+        <div class="form-group">
+            <input type="email" name="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <input type="password" name="password" class="form-control" id="loginPass" placeholder="Password">
+        </div>
+        <button onclick="check(this.form)" type="submit" class="btn login_button" id="login-submit">
+            Login
+        </button>
+        <button type="button" class="btn createAccount" data-toggle="modal" data-target="#newAccountModal">
+            Create Account
+        </button>
+    </form>
+        <!-- Modal For MENTOR Register Account START-->
     <div class="modal fade" id="newAccountModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -106,28 +101,19 @@
                                 <input type="text" aria-label="Repeat Password" class="form-control"
                                     name="Repeat Password" placeholder="Repeat Password" id="repeatePassword" required>
                             </div>
-                            <!-- <div class="input-group">
-                                <div class="input-group-prepend">
+                            <div class="row">
+                                <div class="form-check form-check-inline">
                                     <span class="input-group-text">
                                         <b>I am a:</b>
                                     </span>
+                                    <input class="form-check-input" type="checkbox" name="mentor" id="mentor">
+                                    <label class="form-check-label" for="mentor">Mentor</label>
                                 </div>
-                                <div class="custom-control custom-radio">
-                                    <input type="radio" id="student" name="chooseRadio"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label" for="chooseRadio1">
-                                        Student
-                                    </label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="student" id="student">
+                                    <label class="form-check-label" for="student">Student</label>
                                 </div>
-                                <div class="custom-control custom-radio">
-                                    <input type="radio" id="mentor" name="chooseRadio"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label" for="chooseRadio2">
-                                        Mentor
-                                    </label>
-                                </div>
-                            </div> -->
-                        </div>
+                            </div>
                         <div class="signin">
                             <p>Already have an account? <a href="login.html">Sign in</a>.</p>
                         </div>
@@ -137,7 +123,7 @@
                             </button>
                             <button type="submit" class="btn submitBtn" id="submit">
                                 <b>Submit</b>
-                         </button>
+                            </button>
                         </div>
                     </form>
                     <!-- END NAME, EMAIL, PASSWORD, USER SECTIONS , MODAL FOOTER-->
@@ -145,12 +131,11 @@
             </div>
         </div>
     </div>
-</div>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/6.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-app.js"></script>
 
-<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-firestore.js"></script>
 
 <!-- <script>
   // Your web app's Firebase configuration
