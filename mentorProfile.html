@@ -22,13 +22,61 @@
     <div class="row">
     <div class="col-3">
         <img class="pic"src="img/profilepicone.jpg" alt="profilepic"> 
-    <button class="button"><i class="fas fa-pencil-alt">
-        </i></button>
+
+    <button class="button">
+            <i class="fas fa-pencil-alt" data-toggle="modal" data-target="#addEditProfile"></i>
+        </button>
+    </div>
+    <div class="modal" id="addEditProfile" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Profile</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                <div class="modal-body">
+                    <form id="editProfile">
+                        <div class="form-group">
+                            <label for="name">
+                                Name
+                            </label>
+                            <input type="name" class="form-control" id="Name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                                <label for="name">
+                                        Knickname
+                                    </label>
+                                    <input type="knickname" class="form-control" id="knickname" placeholder="knickname">
+                                </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                Interest/Hobbies
+                            </label>
+                                <textarea class="form-control" id="interest/hobbies" rows="3">
+ 
+                                </textarea>
+                        </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                    Close
+                                </button>
+                                <button type="submit" class="btn btn-primary" id="submit">
+                                    Submit
+                                </button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+ <div>
                      
         </div>
         <div class="col-9">
-        <div class="row"><p class="f36 gray ibm">Sulema Quinteros</p></div>
-        <div class="row"><p class="f28 gray ibm">Su Q</p></div>
+        <div class="row"><p class="f36 gray ibm">Catherine Price</p></div>
+        <div class="row"><p class="f28 gray ibm">Cat >.< </p></div>
      
         <div class="row"><p class="f36 pink sixcaps">Mentor</p></div>
         </div> 
