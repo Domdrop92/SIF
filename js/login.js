@@ -51,9 +51,9 @@ function check(form){
 
     if ( form.loginEmail.value === "sq123@gmail.com" && form.loginPass.value === "test12345")
     {
-      alert("logged in")
+      window.open('../dashboard.html')
     }else if (form.loginEmail.value === "kathyprice@gmail.com" && form.loginPass.value === "test12345"){
-      alert("logged in")
+      window.open('../mentordash.html')
     }else{
       alert("Error Password or Username")
   }
