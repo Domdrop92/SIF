@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/mentordash.css">
-    <title>Mentor Dashboard</title>
+    <title>Mentor Dashboard GG</title>
 </head>
 <body class="container">
+  <div class="container">
     <!----- START HEADER ----->
 <header class="header row">
     <a href="#" class="offset-10">
@@ -20,11 +21,16 @@
     <!-- This button will be the link to the profile page -->
 
     <div class="row">
-      <img class="pic"src="img/teacher-pic.jpg"  alt="profilepicone">
-    </div>
-      
+      <div class="col-3">
+          <img class="pic"src="img/teacher-pic.jpg" alt="prifilepic">
+          <!-- <input class="h80w150"type="file" multiple="false" accept="image/*" id="finput" onchange="upload()"> -->
+      </div>
+      <div class="col-9">
+          <div class="row"><p class="f50 gray ibm">Daphne Hughes</p></div>
+      </div>
+  </div>
 
-    <h1 class="font-stuff">Daphne Hughes</h1>
+    
     <div class="btn-group">
     <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn" >Course #1  <i class="arrow down"></i></button>
@@ -74,6 +80,19 @@
                 </div>
         </div>       
 </div>
+<footer class="row  lightgray h100 wrap-none">
+  <div class="col-3 ptpb">
+    <ul>
+      <li class="fwhite peach h80 col-3"><a href="dashboard.html">Dashboard</a></li>
+      <li class="fwhite peach h80 col-3"><a href="mentorCalendar.html">Calendar</a></li>
+      <li class="fwhite peach h80 col-3"><a href="forum.html">Forum</a></li>
+      <li class="fwhite peach h80 col-3"><a href="#">Inbox</a></li>
+    </ul>
+  </div>
+</footer>
+</div>
+
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

@@ -10,6 +10,9 @@ font-family: 'Six Caps', sans-serif; */
     height: 50px;
     width: 50px;
  }
+ body {
+     background-color: #F3DDE5;
+ }
 /* TASK STYLES */
 .pic{
     height: 75px;
