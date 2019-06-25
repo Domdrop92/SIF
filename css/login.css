@@ -5,54 +5,49 @@ font-family: 'Six Caps', sans-serif; */
 body{
     font-family: 'ibm-plex-serif', sans-serif;
     letter-spacing: 1px;
-}
-
-.container{
     background-color:#FFB6B3;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 /**** START HEADER ****/
 .header{
     padding: 15px;
-    display: flex;
-    justify-content: center;
 }
 .GITgirls-logo{
     margin-top: 100px;
-    height: 75px;;
+    height: 75px;
     width: 200px;
 }
 .welcome{
     font-family: 'IBM plex serif', serif;
     color: #999AA7;
     font-style: italic;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 /**** END HEADER ****/
-.sub_button{
+/****START LOGIN AND REGISTER BUTTONS****/
+.login_button{
+    color: #FFB6B3;
     background-color: #E9EBF0;
     width: 25%;
     margin: 0 auto;
+    margin-top: 40px;
 }
-
 .createAccount{
-    /* width: 45%; */
+    color: #999AA7;
+    background-color:#FFB6B3;
     margin: 0 auto;
     margin-top: 20px;
+    font-size: 40px;
 }
+/****END LOGIN AND REGISTER BUTTONS****/
 
 /**** START LOGIN FORM ****/
 .form-control{
     padding: 10px;
     height: 45px
 }
-
 .modal-content{
     background-color:#999AA7;
 }
