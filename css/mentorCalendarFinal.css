@@ -31,11 +31,11 @@ body{
     background-color: #ffffff;
     font-size: 20px;
     margin: 4px 4px;
-    
+}
     /* text-align: center;  using justify-content-center you dont need this */
     /* display: inline-block; using bootstrap and the flex classes you dont need this*/
     /* cursor: pointer; I am not sure what you are trying to do with the cursor it doesnt seem to change anything*/
-  }
+  
   /* .editButton { Because their styles were identical you did not need to style them twice. I added the edit button class next to the create button one above to cut down on lines of code.
     background-color: #FFFFFF;
     border: none;
