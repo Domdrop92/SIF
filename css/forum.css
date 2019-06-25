@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
+/* font-family: 'IBM Plex Serif', serif;
+font-family: 'Six Caps', sans-serif; */
+
+body{
+    font-family: ibm-plex-serif, sans-serif;
+    letter-spacing: 1px;
+    height: 100vh;
+    background-color:#E9EBF0;
+}
+/**** START HEADER ****/
+.header, .askBar, .nav{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+}
+.GITgirls-logo{
+    height: 50px;
+    width: 50px;
+}
+/**** END HEADER ****/
+/**** START NAV BAR ****/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #E897B6;
+}
+.nav-pills .nav-link{
+    border-radius: 15px;
+}
+.nav-link{
+    background-color: #FFB6B3;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+/**** END NAV BAR ****/
+/**** POST BAR AND MODAL ****/
+.modal-content{
+    background-color:#999AA7;
+}
+.modal-header, .modal-body{
+    border-bottom: thin solid #FFB6B3;
+    color: #FFFFFF;
+}
+.askButton, .submit{
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+}
+.askButton,.submit{
+    width: 80px;
+    background-color: #FFB6B3;
+}
+/**** END POST BAR AND MODAL ****/
+/**** SEARCH BAR ****/
+.searchBar{
+    width: 125px;
+    border-radius: 15px;
+}
+/**** SEARCH BAR ****/
+.np{
+    width: 20%;
+    height: 40px;
+    border-radius: 15px; 
+}
+.post{
+    background-color:  #FFB6B3;
+    border-color: #999AA7;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+ul{
+    list-style-type: none; 
+    padding-top: 10px;
+    
+  }
+li{
+    cursor: pointer;
+    font-family: 'IBM Plex Serif', serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    list-style-type: none;
+    border-bottom: solid thin #999AA7;
+}
+
+h2, h3{
+    list-style-type: none;
+    font-family: 'IBM Plex Serif', serif;
+    padding-top: 10px;
+  }
+
+ h2{
+      font-weight: bolder;
+
+  }
+
+.font2{
+    font-family: 'IBM Plex Serif', serif;
+  }
+  .fs{
+    font-size: 50px;
+  }

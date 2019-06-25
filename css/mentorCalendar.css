@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
+/* font-family: 'IBM Plex Serif', serif;
+font-family: 'Six Caps', sans-serif; */
+
+body{
+    font-family: ibm-plex-serif, sans-serif;
+    letter-spacing: 1px;
+    background-color:#E9EBF0;
+    height: 100vh;
+}
+
+
+/**** START HEADER ****/
+.header{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+}
+.GITgirls-logo{
+    height: 50px;
+    width: 50px;
+}
+/**** END HEADER ****/
+
+.createButton, .editButton{
+    width: 40%;
+    border: none;
+    border-radius: 15px;
+    color:#999AA7;
+    padding: 10px 32px;
+    text-decoration: none;
+     background-color: #FFFFFF;
+     font-size: 20px;
+     margin: 4px 4px;
+    /* text-align: center;  using justify-content-center you dont need this */
+    /* display: inline-block; using bootstrap and the flex classes you dont need this*/
+    /* cursor: pointer; I am not sure what you are trying to do with the cursor it doesnt seem to change anything*/
+  }
+  /* .editButton { Because their styles were identical you did not need to style them twice. I added the edit button class next to the create button one above to cut down on lines of code.
+    background-color: #FFFFFF;
+    border: none;
+    color: #999AA7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  } */
+.boxed{ 
+    border-radius: 10px;
+    color: #E897B6;
+    padding: 10px;
+     /* height: 100px; height was making the title of center. using padding adds that space you want without taking away the center.*/
+    /* width: 500px; you do not need to add width when you use row in html
+    border: 5px solid #ffffff; */
+    /* font-weight: 400;  Using a <b> tag around an item will make it bold*/
+    /* text-align: left; With flex you do not need text align in your CSS
+    font-size: 45px; try to use your tags in html for sizing cuts out need in CSS*/
+    /* font-family: ibm-plex-serif, sans-serif; */
+}
+
+.dates{
+    padding-top: 5px;
+}
+
+.box{
+    margin-left: 5px;
+    height: 200px;
+    background: #e897b6;
+    border-radius: 10px;
+    color: #ffffff;
+    /* width: 200px; */
+    /* border: 5px solid #ffffff; */
+    /* font-weight: 400; */
+    /* text-align: left; */
+    /* font-size: 25px; */
+    /* font-family: mongoose sans-serif; */
+    /* word-wrap: break-word; */
+}
+
+
+.box-2{
+    margin-left: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #999AA7;
+    color: #E897B6;
+    /* width: 100px; */
+    /* border: 5px solid #ffffff; */
+    /* font-weight: 400; */
+    /* text-align: center; */
+    /* font-size: 25px; */
+    /* font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word; */
+}
+
+.box-3{
+    height: 250px;
+    width: 50;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    background-color: #DFE6F5;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+}
+ .box-4{
+        height: 250px;
+        width: 150px;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        background-color: #e9ebf0;
+        font-weight: 400;
+        color: #E897B6;
+        text-align: center;
+        font-size: 25px;
+        font-family: ibm-plex-serif, sans-serif;
+        word-wrap: break-word;
+ }
+
+
+ .box-5{
+    height: 200px;
+    width: 100;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffb6b3;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+ }
+
+.box-6{
+        height: 200px;
+        width: 100px;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        background-color: #e9ebf0;
+        font-weight: 400;
+        color: #E897B6;
+        text-align: center;
+        font-size: 25px;
+        font-family: ibm-plex-serif, sans-serif;
+        word-wrap: break-word;
+}
+
+.box-7{
+    height: 200px;
+    width: 100px;
+    border: 5px solid #FFffff;
+    border-radius: 10px;
+    background-color:#999AA7;
+    font-weight: 400;
+    color: #E897B6;
+    text-align: center;
+    font-size: 25px;
+    font-family: ibm-plex-serif, sans-serif;
+    word-wrap: break-word;
+}
+
+.pic{
+    height: 75px;
+    background-color:gray;
+    border-color: black;
+    border-radius: 45px;
+}
+.pink{
+    color: #E897B6;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.fwhite{
+    color:white;
+}
+.gray{
+    color: #999AA7;
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.lightgray{
+    background-color: #E9EBF0;
+}
+/* .f50{
+    font-size: 50px;
+}
+.f36{
+    font-size: 36px;
+} */
+.h100{
+    height: 100px;
+}
+.h80{
+    height: 80px;
+    width: 100px;
+}
+.h80w150{
+    height: 80px;
+    width: 150px;
+}
+.bold{
+    font-weight: bold;
+}
+.sixcaps{
+    font-family: 'Six Caps', sans-serif;
+}
+.ibm{
+    font-family: 'IBM Plex Serif', serif;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
