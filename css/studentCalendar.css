@@ -3,311 +3,286 @@
 font-family: 'Six Caps', sans-serif; */
 
 body{
-    font-family: ibm-plex-serif, sans-serif;
-    letter-spacing: 1px;
+   font-family: ibm-plex-serif, sans-serif;
+   letter-spacing: 1px;
+   background-color:#FFFFFF;
+   height: 100vh;
 }
-.container{
-    background-color:#E9EBF0
-    height; 100vh; margin-left: 1rem
-}
+
 
 /**** START HEADER ****/
 .header{
-    padding: 15px;
-    border-bottom: solid thin #999AA7;
+   padding: 15px;
+   border-bottom: solid thin #999AA7;
 }
 .GITgirls-logo{
-    height: 50px;
-    width: 50px;
+   height: 50px;
+   width: 50px;
 }
 /**** END HEADER ****/
 
-.boxed{  
-    height: 100px;
-    width: 500px;
-    border: 5px solid #ffffff;
-    border-radius: 10px;
-    font-weight: 400;
-    color: #E897B6;
-    text-align: left;
-    font-size: 30px;
-    font-family: 'IBM Plex Serif', serif;
+.createButton, .editButton{
+   width: 40%;
+   border: none;
+   border-radius: 15px;
+   color:#999AA7;
+   padding: 10px 32px;
+   text-decoration: none;
+   background-color: #ffffff;
+   font-size: 20px;
+   margin: 4px 4px;
+  }
+  
+   /* text-align: center;  using justify-content-center you dont need this */
+   /* display: inline-block; using bootstrap and the flex classes you dont need this*/
+   /* cursor: pointer; I am not sure what you are trying to do with the cursor it doesnt seem to change anything*/
+ 
+ /* .editButton { Because their styles were identical you did not need to style them twice. I added the edit button class next to the create button one above to cut down on lines of code.
+   background-color: #FFFFFF;
+   border: none;
+   color: #999AA7;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 4px 2px;
+   cursor: pointer;
+  */
+.boxed{
+   border-radius: 10px;
+   color: #E897B6;
+   padding: 10px;
+    /* height: 100px; height was making the title of center. using padding adds that space you want without taking away the center.*/
+   /* width: 500px; you do not need to add width when you use row in html
+   border: 5px solid #ffffff; */
+   /* font-weight: 400;  Using a <b> tag around an item will make it bold*/
+   /* text-align: left; With flex you do not need text align in your CSS
+   font-size: 45px; try to use your tags in html for sizing cuts out need in CSS*/
+   /*font-family: ibm-plex-serif;*/
+}
+
+.dates{
+   padding-top: 5px;
+   font-size: 45px;
+
 }
 
 .box{
-    height: 200px;
-    width: 200px;
-    border: 5px solid #ffffff;
-    background: #e897b6;
-    border-radius: 10px;
-    font-weight: 400;
-    color: #ffffff;
-    text-align: left;
-    font-size: 25px;
-    font-family: 'Six Caps', sans-serif;
-    word-wrap: break-word;
+   margin: 5px;
+   height: 200px;
+   background: #e897b6;
+   border-radius: 10px;
+   color: #FFFFFF;
+   width: 70%;
+   padding: 5px;
+   /* border: 5px solid #ffffff; */
+   /* font-weight: 400; */
+   /* text-align: left; */
+   /* font-size: 25px; */
+   /* font-family: mongoose sans-serif; */
+   /* word-wrap: break-word; */
 }
 
 
 .box-2{
-    height: 200px;
-    width: 100px;
-    border: 5px solid #ffffff;
-    border-radius: 10px;
-    background-color: #999AA7;
-    font-weight: 400;
-    color: #E897B6;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Six Caps', sans-serif;
-    word-wrap: break-word;
+   margin: 5px;
+   height: 200px;
+   border-radius: 10px;
+   background-color: #999AA7;
+   color: #FFFFFF;
+   width: 20%;
+   padding: 5px;
+   /* border: 5px solid #ffffff; */
+   /* font-weight: 400; */
+   /* text-align: center; */
+   /* font-size: 25px; */
+   /* font-family: ibm-plex-serif, sans-serif;
+   word-wrap: break-word; */
 }
 
 .box-3{
-    height: 250px;
-    width: 50;
-    border: 5px solid #ffffff;
-    border-radius: 10px;
-    background-color: #DFE6F5;
-    font-weight: 400;
-    color: #E897B6;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Six Caps', sans-serif;
-    word-wrap: break-word;
+   margin: 5px;
+   height: 200px;
+   border-radius: 10px;
+   background-color:#DFE6F5;
+   color: #E897B6;
+   width: 45%;
+   padding: 5px;
 }
- .box-4{
-        height: 250px;
-        width: 150px;
-        border: 5px solid #ffffff;
-        border-radius: 10px;
-        background-color: #e9ebf0;
-        font-weight: 400;
-        color: #E897B6;
-        text-align: center;
-        font-size: 25px;
-        font-family: 'Six Caps', sans-serif;
-        word-wrap: break-word;
- }
+.box-4{
+   margin: 5px;
+   height: 200px;
+   border-radius: 10px;
+   background-color:#E9EBF0;
+   color: #FFB6B3;
+   width: 45%;
+   padding: 5px;
+}
 
 
- .box-5{
-    height: 200px;
-    width: 100;
-    border: 5px solid #ffffff;
-    border-radius: 10px;
-    background-color: #ffb6b3;
-    font-weight: 400;
-    color: #E897B6;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Six Caps', sans-serif;
-    word-wrap: break-word;
- }
+.box-5{
+   margin: 5px;
+   height: 200px;
+   border-radius: 10px;
+   background-color: #E9EBF0;
+   color: #999AA7;
+   width: 30%;
+   padding: 5px;
+}
 
 .box-6{
-        height: 200px;
-        width: 100px;
-        border: 5px solid #ffffff;
-        border-radius: 10px;
-        background-color: #e9ebf0;
-        font-weight: 400;
-        color: #E897B6;
-        text-align: center;
-        font-size: 25px;
-        font-family: 'Six Caps', sans-serif;
-        word-wrap: break-word;
+   margin: 5px;
+   height: 200px;
+   border-radius: 10px;
+   background-color: #FFB6B3;
+   color: #FFFFFF;
+   width: 30%;
+   padding: 5px;
 }
 
 .box-7{
-    height: 200px;
-    width: 100px;
-    border: 5px solid #FFffff;
-    border-radius: 10px;
-    background-color:#999AA7;
-    font-weight: 400;
-    color: #E897B6;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Six Caps', sans-serif;
-    word-wrap: break-word;
+   margin: 5px;
+   height: 200px;
+   border-radius: 10px;
+   background-color: #E9EBF0;
+   color: #999AA7;
+   width: 30%;
+   padding: 5px;
 }
 
 .pic{
-    height: 75px;
-    background-color:gray;
-    border-color: black;
-    border-radius: 45px;
+   height: 75px;
+   background-color:gray;
+   border-color: black;
+   border-radius: 45px;
 }
 .pink{
-    color: #E897B6;
+   color: #E897B6;
 }
 .white{
-    background-color: #FFFFFF;
+   background-color: #FFFFFF;
 }
 .fwhite{
-    color:white;
+   color:white;
 }
 .gray{
-    color: #999AA7;
+   color: #999AA7;
 }
 .peach{
-    background-color: #FFB6B3;
+   background-color: #FFB6B3;
 }
 .lightgray{
-    background-color: #E9EBF0;
+   background-color: #E9EBF0;
 }
-.f50{
-    font-size: 50px;
+.f22{
+   font-size: 22px;
 }
-.f36{
-    font-size: 36px;
+.f14{
+   font-size: 14px;
+}
+.f12{
+   font-size: 12px;
 }
 .h100{
-    height: 100px;
+   height: 100px;
 }
 .h80{
-    height: 80px;
-    width: 100px;
+   height: 80px;
+   width: 98%;
 }
 .h80w150{
-    height: 80px;
-    width: 150px;
+   height: 80px;
+   width: 150px;
 }
 .bold{
-    font-weight: bold;
+   font-weight: bold;
 }
 .sixcaps{
-    font-family: 'Six Caps', sans-serif;
+   font-family: 'Six Caps', sans-serif;
 }
 .ibm{
-    font-family: 'IBM Plex Serif', serif;
+   font-family: 'IBM Plex Serif', serif;
 }
 .ptpb{
-    padding-top: 10px;
-    padding-bottom: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
-.button {
-    background-color: #FFFFFF; /* white */
-    border: none;
-    color: #DFE6F5;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
+  *{
+   box-sizing: border-box;
   }
-  .button-2 {
-    background-color: #FFFFFF; /* white */
-    border: none;
-    color: #FFB6B3;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 40px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  .disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-  }
-
-body {
-    font-family: Arial;
-    margin: 0;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
   img {
-    vertical-align: middle;
+   vertical-align: middle;
   }
-  
   /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    position: relative;
-  }
-  
+ .container{
+   position: relative;
+ }
   /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
+ .mySlides {
+   display: none;
+ }
   /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
+ .cursor {
+   cursor: pointer;
+ }
   /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
+ .prev,
+ .next {
+   cursor: pointer;
+   position: absolute;
+   top: 40%;
+   width: auto;
+   padding: 16px;
+   margin-top: -50px;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+   -webkit-user-select: none;
+ }
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
+  } 
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
+ .prev:hover,
+ .next:hover {
+   background-color: rgba(231, 184, 202, 0.8);
+ }
   /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
+ .numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
+ }
   /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  
+ .caption-container{
+   text-align: center;
+   background-color: #E897B6;
+   padding: 2px 16px;
+   color: white;
+ }
   .row:after {
-    content: "";
-    display: table;
-    clear: both;
+   content: "";
+   display: table;
+   clear: both;
   }
-  
   /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
+ .column {
+   float: left;
+   width: 16.66%;
+ }
   /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
+ .demo {
+   opacity: 0.6;
+ }
   .active,
-  .demo:hover {
-    opacity: 1;
-  }
+ .demo:hover {
+   opacity: 1;
+ }
+
