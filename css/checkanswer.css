@@ -1,24 +1,24 @@
 body {
     margin-bottom: 10px;
     background-color: #f4f5fd;
+    height: 100vh;
 
 }
-/* div{
+.background{
     background-color: #DFE6F5;
-} */
+    height: 65vh;
+    margin-top: 25px;
+    border: solid thick #999AA7;
+    border-radius: 10px;
+}
 .checkAnswer {
-    margin: 10px;
-    background-color: #DFE6F5;
+    margin-top: 30px;
 }
-/* div{
-    background-color: #DFE6F5;
-} */
-
-
-
-
-
-
+.click, .fas-asterisk{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
 
 
 nav{
