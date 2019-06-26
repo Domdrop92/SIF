@@ -5,11 +5,9 @@ font-family: 'Six Caps', sans-serif; */
 body{
     font-family: ibm-plex-serif, sans-serif;
     letter-spacing: 1px;
-    background-color:#F3DDE5;
+    background-color:#FFFFFF;
     height: 100vh;
 }
-
-
 /**** START HEADER ****/
 .header{
     padding: 15px;
@@ -28,147 +26,91 @@ body{
     color:#999AA7;
     padding: 10px 32px;
     text-decoration: none;
-     background-color: #FFFFFF;
-     font-size: 20px;
-     margin: 4px 4px;
-    /* text-align: center;  using justify-content-center you dont need this */
-    /* display: inline-block; using bootstrap and the flex classes you dont need this*/
-    /* cursor: pointer; I am not sure what you are trying to do with the cursor it doesnt seem to change anything*/
-  }
-  /* .editButton { Because their styles were identical you did not need to style them twice. I added the edit button class next to the create button one above to cut down on lines of code.
-    background-color: #FFFFFF;
-    border: none;
-    color: #999AA7;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    background-color: #ffffff;
     font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-  } */
+    margin: 4px 4px;
+}
 .boxed{ 
     border-radius: 10px;
     color: #E897B6;
     padding: 10px;
-     /* height: 100px; height was making the title of center. using padding adds that space you want without taking away the center.*/
-    /* width: 500px; you do not need to add width when you use row in html
-    border: 5px solid #ffffff; */
-    /* font-weight: 400;  Using a <b> tag around an item will make it bold*/
-    /* text-align: left; With flex you do not need text align in your CSS
-    font-size: 45px; try to use your tags in html for sizing cuts out need in CSS*/
-    /* font-family: ibm-plex-serif, sans-serif; */
 }
 
 .dates{
     padding-top: 5px;
+    font-size: 45px;
+
 }
 
 .box{
-    margin-top: 10px;
-    margin-left: 5px;
+    margin: 5px;
     height: 200px;
     background: #e897b6;
     border-radius: 10px;
-    color: #ffffff;
-    /* width: 200px; */
-    /* border: 5px solid #ffffff; */
-    /* font-weight: 400; */
-    /* text-align: left; */
-    /* font-size: 25px; */
-    /* font-family: mongoose sans-serif; */
-    /* word-wrap: break-word; */
+    color: #FFFFFF;
+    width: 70%;
+    padding: 5px;
 }
 
 
 .box-2{
-    margin-top: 10px;
-    margin-left: 5px;
+    margin: 5px;
     height: 200px;
     border-radius: 10px;
     background-color: #999AA7;
-    color: #E897B6;
-    /* width: 100px; */
-    /* border: 5px solid #ffffff; */
-    /* font-weight: 400; */
-    /* text-align: center; */
-    /* font-size: 25px; */
-    /* font-family: ibm-plex-serif, sans-serif;
-    word-wrap: break-word; */
+    color: #FFFFFF;
+    width: 20%;
+    padding: 5px;
 }
 
 .box-3{
-    margin-left: 5px;
-    margin-top: 10px;
-    height: 150px;
-    /* width: 50; */
-    /* border: 5px solid #ffffff; */
+    margin: 5px;
+    height: 200px;
     border-radius: 10px;
-    background-color: #DFE6F5;
-    /* font-weight: 400; */
+    background-color:#DFE6F5;
     color: #E897B6;
-    /* text-align: center;
-    font-size: 25px;
-    font-family: ibm-plex-serif, sans-serif;
-    word-wrap: break-word; */
+    width: 45%;
+    padding: 5px;
 }
  .box-4{
-     margin-top: 10px;
-        height: 250px;
-        /* width: 150px; */
-        /* border: 5px solid #ffffff; */
-        border-radius: 10px;
-        background-color: #e9ebf0;
-        /* font-weight: 400; */
-        color: #E897B6;
-        /* text-align: center; */
-        /* font-size: 25px;
-        font-family: ibm-plex-serif, sans-serif;
-        word-wrap: break-word; */
+    margin: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:#E9EBF0;
+    color: #FFB6B3;
+    width: 45%;
+    padding: 5px;
  }
 
 
  .box-5{
-    margin-top: 10px;
+    margin: 5px;
     height: 200px;
-    /* width: 100;
-    border: 5px solid #ffffff; */
     border-radius: 10px;
-    background-color: #ffb6b3;
-    /* font-weight: 400; */
-    color: #E897B6;
-    /* text-align: center;
-    font-size: 25px;
-    font-family: ibm-plex-serif, sans-serif;
-    word-wrap: break-word; */
+    background-color: #E9EBF0;
+    color: #999AA7;
+    width: 30%;
+    padding: 5px;
  }
 
 .box-6{
-        height: 200px;
-        width: 100px;
-        border: 5px solid #ffffff;
-        border-radius: 10px;
-        background-color: #e9ebf0;
-        font-weight: 400;
-        color: #E897B6;
-        text-align: center;
-        font-size: 25px;
-        font-family: ibm-plex-serif, sans-serif;
-        word-wrap: break-word;
+    margin: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #FFB6B3;
+    color: #FFFFFF;
+    width: 30%;
+    padding: 5px;
 }
 
 .box-7{
+    margin: 5px;
     height: 200px;
-    width: 100px;
-    border: 5px solid #FFffff;
     border-radius: 10px;
-    background-color:#999AA7;
-    font-weight: 400;
-    color: #E897B6;
-    text-align: center;
-    font-size: 25px;
-    font-family: ibm-plex-serif, sans-serif;
-    word-wrap: break-word;
+    background-color: #E9EBF0;
+    color: #999AA7;
+    width: 30%;
+    padding: 5px;
 }
 
 .pic{
@@ -195,12 +137,16 @@ body{
 .lightgray{
     background-color: #E9EBF0;
 }
-/* .f50{
-    font-size: 50px;
+.f22{
+    font-size: 22px;
 }
-.f36{
-    font-size: 36px;
-} */
+ .f14{
+    font-size: 14px;
+}
+.f12{
+    font-size: 12px;
+}
+ 
 .h100{
     height: 100px;
 }
@@ -225,3 +171,26 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/**** START NAV BAR ****/
+nav{
+    background: #ffffff;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/**** END NAV BAR ****/
