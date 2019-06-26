@@ -15,7 +15,7 @@
     height: 200px;
 }
 body {
-    background-color: #F3DDE5;
+    background-color: #f4f5fd;
 }
 /* TASK STYLES */
 .pic{
@@ -46,7 +46,7 @@ body {
     font-size: 50px;
 }
 .f36{
-    font-size: 36px;
+    font-size: 28px;
 }
 .h100{
     height: 100px;
@@ -62,8 +62,10 @@ body {
 .bold{
     font-weight: bold;
 }
-.sixcaps{
-    font-family: 'Six Caps', sans-serif;
+.sixcaps, .greyBtn, .btn{
+    font-family: mongoose, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .ibm{
     font-family: 'IBM Plex Serif', serif;
@@ -73,3 +75,42 @@ body {
     padding-bottom: 10px;
 }
 /* END TASK STYLES */
+
+nav{
+    background: #f4f5fd;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.top{
+    margin-top:10px;
+    border-bottom: solid thin #999AA7;
+}
+.greyBtn{
+    background-color: #999AA7;
+    font-size: 28px;
+    padding-left:20px; 
+    padding-right:20px; 
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+}
+.spc{
+    margin-bottom: 15px;
+}
+.ink{
+    color: #FFB6B3;
+}
