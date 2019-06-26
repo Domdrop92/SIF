@@ -14,7 +14,7 @@
     <title>Test Task Page</title>
 </head>
 <body class="container">
-    <div class="col d-flex flex-column align-items-center">
+    <div class="col d-flex flex-column align-items-center checkAnswer">
         <h1 class="task_header">
             Task 1
         </h1>
@@ -22,7 +22,7 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt molestias explicabo odio itaque non sit, ratione id. Omnis nam, quos ipsa nemo reprehenderit corrupti sit facere accusamus eveniet, accusantium nesciunt!
         </p>
     </div>
-    <div class="col d-flex flex-column align-items-center">
+    <div class="col d-flex flex-column align-items-center checkAnswer">
         <form autocomplete="off" spellcheck="false" id="code-form" onsubmit="return false" method="post" target="_blank">
             <div class="row exercisewindow">
                 <div class="exercisecontainer col-12">
@@ -42,6 +42,20 @@
     </div>
     <button class="Check It" onclick="checkOnIt()">Check Answer</button>
     <button class="Submit It" onclick="submitIt()">Submit</button>
+
+
+<!-- nav -->
+<nav class="row  lightgray h100 fixed-bottom">
+        <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'dashboard.html';" id="myDashboard"class="btn text-wrap fwhite peach h80"><i class="fas fa-home fa-2x"></i></button></div>
+        <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'calendar.html';" id="myCalendar"class="btn fwhite peach h80"><i class="fas fa-calendar-day fa-2x"></i></button></div>
+        <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'forum.html';" id="myForum"class="btn fwhite peach h80"><i class="fas fa-align-left fa-2x"></i></button></div>
+        <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'inbox.html';" id="myInbox"class="btn fwhite peach h80"><i class="fas fa-envelope fa-2x"></i></button></div>
+   </nav>
+<!-- end nav -->
+
+
+
+
 <!-- <footer>
         <nav class=“row  lightgray h100 fixed-bottom”>
                 <div class=“col-3 ptpb”><button type=“button” onclick=“loation.href = ‘dashboard.html’;” id=“myDashboard”class=“btn text-wrap fwhite peach h80"><i class=“fas fa-home fa-2x”></i></button></div>
@@ -55,6 +69,7 @@
     </footer>
 
     <script src="js/checkanswer.js"></script>
+    <script src="js/sdashboard.js"></script>
 
 </body>
 </html>

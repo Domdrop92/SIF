@@ -1,13 +1,46 @@
 body {
     margin-bottom: 10px;
+    background-color: #f4f5fd;
 
 }
+/* div{
+    background-color: #DFE6F5;
+} */
+.checkAnswer {
+    margin: 10px;
+    background-color: #DFE6F5;
+}
+/* div{
+    background-color: #DFE6F5;
+} */
 
-div {
-    background-color: lightblue;
+
+
+
+
+
+
+
+nav{
+    background: #f4f5fd;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
     color:white;
 }
-
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
 
 
