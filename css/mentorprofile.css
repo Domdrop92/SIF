@@ -143,3 +143,25 @@ a:hover{
     color:#0056b3;
     text-decoration:none;
  }
+
+
+
+ .modal-content{
+    background-color:#999AA7;
+ }
+ .modal-header, .modal-body{
+    border-bottom: thin solid #FFB6B3;
+    color: #FFFFFF;
+ }
+ /* .fa-edit{
+    background-color:#F4F5FD
+ } */
+ .submit{
+    width: 80px;
+    background-color: #FFB6B3;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+ }
