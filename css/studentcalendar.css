@@ -5,7 +5,7 @@ font-family: 'Six Caps', sans-serif; */
 body{
    font-family: ibm-plex-serif, sans-serif;
    letter-spacing: 1px;
-   background-color:#FFFFFF;
+   background-color:#F4f5fd;
    height: 100vh;
 }
 
@@ -32,34 +32,11 @@ body{
    font-size: 20px;
    margin: 4px 4px;
   }
-  
-   /* text-align: center;  using justify-content-center you dont need this */
-   /* display: inline-block; using bootstrap and the flex classes you dont need this*/
-   /* cursor: pointer; I am not sure what you are trying to do with the cursor it doesnt seem to change anything*/
  
- /* .editButton { Because their styles were identical you did not need to style them twice. I added the edit button class next to the create button one above to cut down on lines of code.
-   background-color: #FFFFFF;
-   border: none;
-   color: #999AA7;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 20px;
-   margin: 4px 2px;
-   cursor: pointer;
-  */
 .boxed{
    border-radius: 10px;
    color: #E897B6;
    padding: 10px;
-    /* height: 100px; height was making the title of center. using padding adds that space you want without taking away the center.*/
-   /* width: 500px; you do not need to add width when you use row in html
-   border: 5px solid #ffffff; */
-   /* font-weight: 400;  Using a <b> tag around an item will make it bold*/
-   /* text-align: left; With flex you do not need text align in your CSS
-   font-size: 45px; try to use your tags in html for sizing cuts out need in CSS*/
-   /*font-family: ibm-plex-serif;*/
 }
 
 .dates{
@@ -76,12 +53,6 @@ body{
    color: #FFFFFF;
    width: 70%;
    padding: 5px;
-   /* border: 5px solid #ffffff; */
-   /* font-weight: 400; */
-   /* text-align: left; */
-   /* font-size: 25px; */
-   /* font-family: mongoose sans-serif; */
-   /* word-wrap: break-word; */
 }
 
 
@@ -93,12 +64,6 @@ body{
    color: #FFFFFF;
    width: 20%;
    padding: 5px;
-   /* border: 5px solid #ffffff; */
-   /* font-weight: 400; */
-   /* text-align: center; */
-   /* font-size: 25px; */
-   /* font-family: ibm-plex-serif, sans-serif;
-   word-wrap: break-word; */
 }
 
 .box-3{
@@ -199,7 +164,9 @@ body{
    font-weight: bold;
 }
 .sixcaps{
-   font-family: 'Six Caps', sans-serif;
+   font-family: mongoose, sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 .ibm{
    font-family: 'IBM Plex Serif', serif;
@@ -218,15 +185,15 @@ body{
   img {
    vertical-align: middle;
   }
-  /* Position the image container (needed to position the left and right arrows) */
+  
  .container{
    position: relative;
  }
-  /* Hide the images by default */
+ 
  .mySlides {
    display: none;
  }
-  /* Add a pointer when hovering over the thumbnail images */
+ 
  .cursor {
    cursor: pointer;
  }
@@ -310,6 +277,9 @@ nav{
 .ptpb{
     padding-top: 10px;
     padding-bottom: 20px;
+}
+.lightgray{
+   background-color: #f4f5f4;
 }
 /**** END NAV BAR ****/
 

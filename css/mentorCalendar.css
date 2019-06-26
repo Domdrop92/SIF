@@ -5,7 +5,7 @@ font-family: 'Six Caps', sans-serif; */
 body{
     font-family: ibm-plex-serif, sans-serif;
     letter-spacing: 1px;
-    background-color:#FFFFFF;
+    background-color:#F4f5fd;
     height: 100vh;
 }
 /**** START HEADER ****/
@@ -26,7 +26,7 @@ body{
     color:#999AA7;
     padding: 10px 32px;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #F4F5FD;
     font-size: 20px;
     margin: 4px 4px;
 }
@@ -176,7 +176,7 @@ body{
 
 /**** START NAV BAR ****/
 nav{
-    background: #ffffff;
+    background: #f4f5fd;
 }
 .h80{
     height: 60px;
@@ -195,8 +195,31 @@ nav{
     padding-top: 10px;
     padding-bottom: 20px;
 }
+.lightgray{
+    background-color: #F4F5FD;
+}
 /**** END NAV BAR ****/
 a:hover{
     color:#0056b3;
     text-decoration:none;
 }
+
+.modal-content{
+    background-color:#999AA7;
+ }
+ .modal-header, .modal-body{
+    border-bottom: thin solid #FFB6B3;
+    color: #FFFFFF;
+ }
+ .fa-edit{
+    background-color:#F4F5FD
+ }
+ .submit{
+    width: 80px;
+    background-color: #FFB6B3;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+ }
