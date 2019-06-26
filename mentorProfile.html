@@ -7,23 +7,22 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/mentorprofile.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xhg4tix.css">
     <title>Git Girls Profile</title>
     
 </head>
-<body>
-<div class="container">
-           <!----- START HEADER ----->
-           <header class="header row">
-                <a href="#" class="offset-10">
-                 
-                    <img src="img/GITgirls-logo.png" alt="Uppercase grey G and lowecase pink G" class="GITgirls-logo">
-            </header>
-            <!----- END HEADER ----->
+<body class="container">
+    <!----- START HEADER ----->
+    <header class="header row">
+        <a href="#" class="offset-10">
+            <img src="img/GITgirls-logo.png" alt="Uppercase grey G and lowecase pink G" class="GITgirls-logo">
+    </header>
+    <!----- END HEADER ----->
     <div class="row">
     <div class="col-3">
-        <img class="pic"src="img/profilepicone.jpg" alt="profilepic"> 
+        <img class="pic" src="img/profilepictwo.jpg" alt="profilepic"> 
 
-    <button class="button">
+        <button class="button">
             <i class="fas fa-pencil-alt" data-toggle="modal" data-target="#addEditProfile"></i>
         </button>
     </div>
@@ -71,22 +70,29 @@
             </div>
         </div>
     </div>
- <div>
-                     
+    <div class="col-9">
+        <div class="row">
+            <p class="f36 gray ibm">Katherine Price</p>
         </div>
-        <div class="col-9">
-        <div class="row"><p class="f36 gray ibm">Catherine Price</p></div>
-        <div class="row"><p class="f28 gray ibm">Cat >.< </p></div>
-     
-        <div class="row"><p class="f36 pink sixcaps">Mentor</p></div>
-        <div class="row"><p class="f18 lightgray-2 ibm">Interest: Painting, Coding, Hiking</p></div>
-        </div> 
-    <footer class="row  lightgray h100 wrap-none">
-        <div class="col-3 ptpb"><button type="button" class="btn fwhite peach h80">Dashboard</button></div>
-        <div class="col-3 ptpb"><button type="button" class="btn fwhite peach h80">Calendar</button></div>
-        <div class="col-3 ptpb"><button type="button" class="btn fwhite peach h80">Forum</button></div>
-        <div class="col-3 ptpb"><button type="button" class="btn fwhite peach h80">Inbox</button></div>
-    </footer>
+        <div class="row">
+            <p class="f28 gray ibm">Cat</p>
+        </div>
+        <div class="row">
+            <p class="f36 pink sixcaps">Mentor</p>
+        </div>
+        <div class="row">
+            <p class="f18 lightgray-2 ibm">Interest: Painting, Coding, Hiking</p>
+        </div>
+    </div> 
+     <!-- nav -->
+     <nav class="row  lightgray h100 fixed-bottom">
+            <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'dashboard.html';" id="myDashboard"class="btn text-wrap fwhite peach h80"><i class="fas fa-home fa-2x"></i></button></div>
+            <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'calendar.html';" id="myCalendar"class="btn fwhite peach h80"><i class="fas fa-calendar-day fa-2x"></i></button></div>
+            <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'forum.html';" id="myForum"class="btn fwhite peach h80"><i class="fas fa-align-left fa-2x"></i></button></div>
+            <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'inbox.html';" id="myInbox"class="btn fwhite peach h80"><i class="fas fa-envelope fa-2x"></i></button></div>
+       </nav>
+    <!-- end nav -->
+    </div>
 
 
     <script src="js/scripts.js"></script>
