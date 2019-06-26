@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
-/* font-family: 'IBM Plex Serif', serif;
-font-family: 'Six Caps', sans-serif; */
+body {
+    background: #F4F5FD;
+ }
 
 .header{
     padding: 15px;
@@ -10,9 +10,14 @@ font-family: 'Six Caps', sans-serif; */
     height: 50px;
     width: 50px;
  }
- body {
-     background-color: #F3DDE5;
- }
+ .top{
+    margin-top:10px;
+    border-bottom: solid thin #999AA7;
+}
+.topp{
+    margin-top: 10px;
+}
+
 /* TASK STYLES */
 .pic{
     height: 75px;
@@ -25,9 +30,6 @@ font-family: 'Six Caps', sans-serif; */
 .pink{
     color: #E897B6;
 }
-.white{
-    background-color: #FFFFFF;
-}
 .fwhite{
     color:white;
 }
@@ -37,14 +39,12 @@ font-family: 'Six Caps', sans-serif; */
 .peach{
     background-color: #FFB6B3;
 }
-.lightgray{
-    background-color: #E9EBF0;
-}
+
 .f50{
     font-size: 50px;
 }
 .f36{
-    font-size: 36px;
+    font-size: 28px;
 }
 .h100{
     height: 100px;
@@ -60,8 +60,10 @@ font-family: 'Six Caps', sans-serif; */
 .bold{
     font-weight: bold;
 }
-.sixcaps{
-    font-family: 'Six Caps', sans-serif;
+.sixcaps, .greyBtn, .btn{
+    font-family: mongoose, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .ibm{
     font-family: 'IBM Plex Serif', serif;
@@ -71,3 +73,42 @@ font-family: 'Six Caps', sans-serif; */
     padding-bottom: 10px;
 }
 /* END TASK STYLES */
+
+/**** START NAV BAR ****/
+nav{
+    background: #F4F5FD;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/**** END NAV BAR ****/
+
+.greyBtn{
+    background-color: #999AA7;
+    font-size: 28px;
+    padding-left:20px; 
+    padding-right:20px; 
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+}
+.spc{
+    margin-bottom: 15px;
+}
+
+.ink{
+    color: #FFB6B3;
+}
