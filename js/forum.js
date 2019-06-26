@@ -43,22 +43,6 @@ document.getElementById('postForm').addEventListener('submit', submitPost);
    })
  }
 
-
-
-// // nav bar
-// document.getElementById("myCalendar").onclick= function(){
-//  window.open(location.href = "calendar.html" );
-// };
-// document.getElementById("myDashboard").onclick= function(){
-//  window.open(location.href = "dashboard.html");
-// };
-// document.getElementById("myForum").onclick= function(){
-//  window.open(location.href = "forum.html");
-// };
-// document.getElementById("myInbox").onclick= function(){
-//  window.open(location.href = "inbox.html");
-// };
-
 const posts = document.querySelector('#posts');
 function renderPosts(doc){
  let h2 = document.createElement('h2');
@@ -92,82 +76,6 @@ db.collection('forumPosts').get().then((snapshot)=>{
  snapshot.docs.forEach(doc =>{
    renderPosts(doc);
  })
+
 })
 
-  
-// let posts = [
-//     {
-//         "name": "Amber",
-//         "title": "HTML Question",
-//         "Date": "8-25-19",
-//         "post": "I wanted to know what HTML stood for?",
-//         "isAnswered": true,
-//         "comments": [
-//             {
-//                 "name": "Cynthia",
-//                 "date": "8-26-19",
-//                 "answer": "It stands for Hypertext Markup Language."
-//             }
-//         ]
-//     },
-//     {
-//         "name": "Tameka",
-//         "title": "What is a Var?",
-//         "Date": "9-10-19",
-//         "post": "So I am just getting into JS and don't get Var can someone help?",
-//         "isAnswered": true,
-//         "comments": [
-//             {
-//                 "name": "Hannah",
-//                 "date": "9-13-19",
-//                 "answer": "Var in JS declares a variable. Which you use to store information."
-//             }
-//         ]
-//     }
-// ];
-
-// console.log(posts);
-
-// fetch(
-//     'js/posts.json'
-// )
-
-// //store
-// localStorage.setItem("posts", JSON.stringify(posts));
-
-// //get
-// let post = JSON.parse( localStorage.getItem("posts") || "[]" );
-
-// function loadForum(){
-//     let text = "";
-
-//     let section2 = document.getElementById("posts");
-//     for (i = 0; i < localStorage.length; i++){
-//         var key = localStorage.key(i);
-//         var value = localStorage.getItem(key); 
-   
-   
-//    text = localStorage.getItem(key)  + "<br>" ;
-   
-   
-//        }
-//       section2.innerHTML += text;
-//    }
-
-
-
-
-// (function(){
-//     let posts = getelement
-//     let makePost = document.getElementById("submitButton");
-
-//     makePost.addEventListener("click") 
-//         fetch('/posts.json', {
-//             method: 'GET',
-//             mode: 'cors',
-//             credentials: 'same-origin',
-//             headers: {
-//                 "content-type": 'Application/json'
-//             }
-//         })
-// })

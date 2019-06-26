@@ -13,3 +13,6 @@ document.getElementById("myInbox").onclick= function(){
 document.getElementById("myCodemirror").onclick= function(){
     location.href = "checkanswer.html";
 };
+document.getElementById("myref").onclick= function(){
+    location.href = "ref.html";
+};
