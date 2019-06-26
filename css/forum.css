@@ -17,7 +17,7 @@ body{
 /**** END HEADER ****/
 /**** START NAV BAR ****/
 nav{
-    background: #ffffff;
+    background: #F4F5FD;
 }
 .h80{
     height: 60px;
@@ -46,7 +46,8 @@ nav{
     color: #FFFFFF;
 }
 .fa-edit{
-    background-color:#F4F5FD
+    color: #999AA7;
+    background-color:#F4F5FD;
 }
 .submit{
     width: 80px;
@@ -71,15 +72,14 @@ nav{
     height: 40px;
     border-radius: 15px;
  }
- .post{
-    background-color:  #FFB6B3;
+ .post, .postBack{
+    background-color:  #E9EBF0;
     border-color: #999AA7;
-    border-radius: 15px;
-    margin-top: 10px;
  }
  ul{
     list-style-type: none;
     padding-top: 10px;
+    
  
   }
  li{
@@ -90,17 +90,24 @@ nav{
     font-size: 20px;
     list-style-type: none;
     border-bottom: solid thin #999AA7;
+    color: #858693;
  }
  
  h2, h3{
     list-style-type: none;
-    font-family: 'IBM Plex Serif', serif;
+    font-family: mongoose, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5px;
     padding-top: 10px;
   }
  
  h2{
-      font-weight: bolder;
- 
+    color: #E897B6;
+    /* border-bottom:solid thin #858693; */
+  }
+  h3{
+      color: #FFB6B3;
   }
 
 /* QUESTIONS SECTION END */
