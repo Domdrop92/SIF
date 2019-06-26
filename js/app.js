@@ -15,23 +15,3 @@ const db = firebase.firestore();
 // const auth = firebase.auth();
 
 console.log(firebase);
-
-
-  // login
-//   const loginForm = document.querySelector('#login-form');
-//   loginForm.addEventListener('login-submit', (e) => {
-//     e.preventDefault();
-  
-//     // get user info
-//     const email = loginForm['login-email'].value;
-//     const password = loginForm['login-password'].value;
-
-//     // log the user in
-//     db.collection(email, password).then((cred) => {
-//       console.log(cred.user);
-//       // close the signup modal & reset form
-//       loginForm.reset();
-//     }); 
-//   }
-// )}
-// END REGISTRATION

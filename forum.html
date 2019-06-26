@@ -11,7 +11,7 @@
     <title>Forem Page GG</title>
 </head>
 
-<body class="container" onload="loadForum();">
+<body class="container">
     <!----- FORUM PAGE ----->
         <!----- START HEADER ----->
         <header class="header row">
@@ -20,18 +20,32 @@
             </a>
         </header>
         <!----- END HEADER ----->
-        <nav class="row nav nav-pills flex-row justify-content-around">
-            <a class="nav-item nav-link active" href="#">Forum</a>
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">Events</a>
-            <a class="nav-item nav-link" href="#">Inbox</a>
-        </nav>
-
+        <nav class="row  lightgray h100 fixed-bottom">
+            <div class="col-3 ptpb">
+                <button type="button" onclick="loation.href = 'dashboard.html';" id="myDashboard"class="btn text-wrap fwhite peach h80"><i class="fas fa-home fa-2x"></i>
+                </button>
+            </div>
+            <div class="col-3 ptpb">
+                <button type="button" onclick="loation.href = 'calendar.html';" id="myCalendar"class="btn fwhite peach h80">
+                    <i class="fas fa-calendar-day fa-2x"></i>
+                </button>
+            </div>
+            <div class="col-3 ptpb">
+                <button type="button" onclick="loation.href = 'forum.html';" id="myForum"class="btn fwhite peach h80">
+                    <i class="fas fa-align-left fa-2x"></i>
+                </button>
+            </div>
+            <div class="col-3 ptpb">
+                <button type="button" onclick="loation.href = 'inbox.html';" id="myInbox"class="btn fwhite peach h80">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </button>
+            </div>
+           </nav>
         <!----- START CREATE BUTTONS AND SEARCH BAR ----->
     <div class="row d-flex flex-row justify-content-center askBar">
         <!-- ASK BUTTON W/ MODAL -->
-        <button type="button" class="askButton offset-1" data-toggle="modal" data-target="#postModal">
-            Post
+        <button type="button" class="offset-1" data-toggle="modal" data-target="#postModal">
+            <i class="fas fa-edit fa-2x"></i>
         </button>
         <div class="modal fade" id="postModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -74,15 +88,13 @@
         <!----- END CREATE BUTTONS AND SEARCH BAR ----->
 
         <!----- START POSTED Q SECTION ----->
-        <div class="questions">
-            <div class="posts" id="posts">
-                <h4 id="postTitle"></h4>
-
-                <p id="postText"></p>
-
+        <div class="row">
+            <div class="col post">
+                <h2 id="posts"></h2>
+                <h3 id="posts"></h3>
+                <ul id="posts"></ul>
             </div>
-
-        </div>
+         </div>
         <!----- END POSTED Q SECTION ----->
 
         <!----- START OF NAVBAR ----->
