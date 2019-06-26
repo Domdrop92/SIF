@@ -194,3 +194,7 @@ nav{
     padding-bottom: 20px;
 }
 /**** END NAV BAR ****/
+a:hover{
+    color:#0056b3;
+    text-decoration:none;
+}
