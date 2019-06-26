@@ -105,3 +105,31 @@ body{
     opacity: 0.4;
     cursor: not-allowed;
   }
+
+
+
+  nav{
+    background: #ffffff;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+a:hover{
+    color:#0056b3;
+    text-decoration:none;
+ }

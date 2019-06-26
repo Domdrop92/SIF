@@ -165,3 +165,8 @@ a:hover{
     border-radius: 15px;
     padding: 3px;
  }
+
+ .bad{
+     width: 200px;
+     height: 200px;
+ }
