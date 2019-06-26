@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
+/* font-family: 'IBM Plex Serif', serif;
+font-family: 'Six Caps', sans-serif; */
+
+body{
+    font-family: ibm-plex-serif, sans-serif;
+    letter-spacing: 1px;
+}
+.container{
+    background-color:#E9EBF0
+    height; 100vh;
+}
+
+/**** START HEADER ****/
+.header{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+}
+.GITgirls-logo{
+    height: 50px;
+    width: 50px;
+}
+/**** END HEADER ****/
+.pic{
+    height: 75px;
+    background-color:gray;
+    border-color: black;
+    border-radius: 45px;
+}
+.pink{
+    color: #E897B6;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.fwhite{
+    color:white;
+}
+.gray{
+    color: #999AA7;
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.lightgray-2{
+  color:#DFE6F5;
+}
+.lightgray{
+    background-color: #E9EBF0;
+}
+.f50{
+    font-size: 50px;
+}
+.f36{
+  font-size: 36px;
+}
+.f28{
+  font-size: 28px;
+}
+.f18{
+    font-size: 18px;
+}
+.h100{
+    height: 100px;
+}
+.h80{
+    height: 80px;
+    width: 100px;
+}
+.h80w150{
+    height: 80px;
+    width: 150px;
+}
+.bold{
+    font-weight: bold;
+}
+.sixcaps{
+    font-family: 'Six Caps', sans-serif;
+}
+.ibm{
+    font-family: 'IBM Plex Serif', serif;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button {
+    background-color: #FFFFFF; /* white */
+    border: none;
+    color: #DFE6F5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button-2 {
+  display:flex;
+  padding: 15px;
+  
+  }
+  .disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
