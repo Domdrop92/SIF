@@ -12,37 +12,36 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/checkanswer.css">
     <title>Test Task Page</title>
-
 </head>
 <body class="container">
-    <div>
-    <h1 class="task_header">Task 1</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt molestias explicabo odio itaque non sit, ratione id. Omnis nam, quos ipsa nemo reprehenderit corrupti sit facere accusamus eveniet, accusantium nesciunt!</p>
-    </div>
-    <form autocomplete="off" spellcheck="false" id="code-form" onsubmit="return false" method="post" target="_blank">
-    <div class="exercisewindow">
+    <div class="col d-flex flex-column align-items-center">
+        <h1 class="task_header">
+            Task 1
+        </h1>
         <p>
-            <code class="codespan">Fill in the blanks for what the exact code for each statement is.</code>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt molestias explicabo odio itaque non sit, ratione id. Omnis nam, quos ipsa nemo reprehenderit corrupti sit facere accusamus eveniet, accusantium nesciunt!
         </p>
-        <div class="exercisecontainer">
-            <pre>
-            "Heading #1"    
-            <input id="ex1" name="ex1" value="">
-            "Heading #2"
-            <input id="ex2" name="ex2" value="">
-            "Heading #3"    
-            <input id="ex3" name="ex3" value="">
-        
-        </pre>
-        </div>
-        <br>
-        <!-- <button type="submit" >Submit answer</button> -->
     </div>
-</form>
+    <div class="col d-flex flex-column align-items-center">
+        <form autocomplete="off" spellcheck="false" id="code-form" onsubmit="return false" method="post" target="_blank">
+            <div class="row exercisewindow">
+                <div class="exercisecontainer col-12">
+                    <div class="d-flex flex-column align-items-center">
+                        "Heading #1"
+                        <input id="ex1" name="ex1" value="">
+                        "Heading #2"
+                        <input id="ex2" name="ex2" value="">
+                        "Heading #3"    
+                        <input id="ex3" name="ex3" value="">
+                    </div>
+                </div>
+                <br>
+        <!-- <button type="submit" >Submit answer</button> -->
+            </div>
+        </form>
+    </div>
     <button class="Check It" onclick="checkOnIt()">Check Answer</button>
     <button class="Submit It" onclick="submitIt()">Submit</button>
-
-
 <!-- <footer>
         <nav class=“row  lightgray h100 fixed-bottom”>
                 <div class=“col-3 ptpb”><button type=“button” onclick=“loation.href = ‘dashboard.html’;” id=“myDashboard”class=“btn text-wrap fwhite peach h80"><i class=“fas fa-home fa-2x”></i></button></div>
@@ -51,7 +50,6 @@
                 <div class=“col-3 ptpb”><button type=“button” onclick=“loation.href = ‘inbox.html’;” id=“myInbox”class=“btn fwhite peach h80"><i class=“fas fa-envelope fa-2x”></i></button></div>
            </nav>
 </footer> -->
-
     <footer>
         <a href="https://www.w3schools.com/"><i class="fas fa-asterisk"></i></a>
     </footer>
