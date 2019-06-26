@@ -64,6 +64,10 @@ nav{
     width: 125px;
     border-radius: 15px;
 }
+.button{
+    border: none;
+    background-color:#F4F5FD;
+}
 /**** SEARCH BAR ****/
 /* QUESTIONS SECTION */
 
