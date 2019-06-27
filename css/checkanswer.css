@@ -1,0 +1,50 @@
+body {
+    margin-bottom: 10px;
+    background-color: #f4f5fd;
+    height: 100vh;
+
+}
+.background{
+    background-color: #DFE6F5;
+    height: 65vh;
+    margin-top: 25px;
+    border: solid thick #999AA7;
+    border-radius: 10px;
+}
+.checkAnswer {
+    margin-top: 30px;
+}
+.click{
+    background-color: #E897B6;
+    color: #ffffff
+}
+.click, .fas-asterisk{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+
+nav{
+    background: #f4f5fd;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+

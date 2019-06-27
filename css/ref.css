@@ -1,0 +1,67 @@
+.container{
+    padding: 15px;
+}
+
+/**** START HEADER ****/
+.header{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+}
+.GITgirls-logo{
+    height: 50px;
+    width: 50px;
+}
+/**** END HEADER ****/
+
+nav{
+    background: #ffffff;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.head{
+    font-family: mongoose, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:50px;
+    color: #999AA7;
+    margin: 10px;
+}
+.card{
+    margin: 10px;
+}
+.card-title{
+    font-family: mongoose, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:35px;
+    color: #E897B6;
+}
+.card-text{
+    font-family: ibm-plex-serif, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #999AA7;
+}
+.btnColor{
+    background: #DFE6F5;
+    border: none;
+    font-family: ibm-plex-serif, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #999AA7;
+}

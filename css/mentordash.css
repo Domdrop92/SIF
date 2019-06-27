@@ -1,0 +1,226 @@
+
+button {
+    color:blue;
+}
+form {
+    display: box;
+    background-color:rgb(172, 172, 162);
+    width: 95%;
+    margin: auto;
+
+}
+p {
+    display:box;
+    width: 100px;
+    margin: auto;
+}
+
+body {
+    background-color: #f4f5fd;
+    display: box;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+h1{
+    display: box;
+    width: 100px;
+    margin: auto;
+}
+
+div {
+    display: box;
+    width: 95%;
+    margin: auto;
+}
+
+.header{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+ }
+.GITgirls-logo{
+    height: 50px;
+    width: 50px;
+ }
+ 
+.logo{
+    height: 20%;
+}
+.h200{
+    height: 200px;
+}
+
+li {
+    display: inline;
+    
+    
+}
+/* TASK STYLES */
+.pic{
+    height: 75px;
+    background-color: gray;
+    border-color: black;
+    border-radius: 45px;
+}
+.pink{
+    color: #E897B6;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.fwhite{
+    color:white;
+}
+.gray{
+    color: #999AA7;
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.lightgray{
+    background-color: #E9EBF0;
+}
+.f50{
+    font-size: 28px;
+}
+.f36{
+    font-size: 28px;
+}
+.h100{
+    height: 100px;
+}
+.h80{
+    height: 80px;
+    width: 100px;
+}
+.h80w150{
+    height: 80px;
+    width: 150px;
+}
+.bold{
+    font-weight: bold;
+}
+.sixcaps, .dropdown-content{
+    font-family: mongoose, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ibm, .dropbtn{
+    font-family: 'IBM Plex Serif', serif;
+}
+.ptpb{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.stylestuff{
+        background-color: #999AA7;
+        border-radius: 25px;
+        color: white;
+        padding: 28px;
+        font-size: 15px;
+        border: none;
+        width: 15%;
+        margin: auto;
+}
+.btn{
+    float: left;
+    margin-bottom: 10px;
+    margin: auto;
+
+}
+/* 
+styles stuff */
+
+.dropbtn {
+    background-color: #999AA7;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    width: 80%;
+    margin: 15px;
+  }
+  
+.dropdown {
+    position: relative;
+    display: block;
+    text-align: center;
+    
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 15px;
+    min-width: 50px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+    background-color: #FFFFFF;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+
+  }
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:#E897B6 ;}
+
+i {
+
+border-width: 0 3px 4px 0;
+display: inline-block;
+padding: 5px;
+margin-bottom: 2%;
+
+}
+
+.down {
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+}
+.font-stuff {
+  font-family: mongoose, sans-serif;
+  color: #999AA7;
+}
+
+/* Emily Nav style */
+nav{
+    background: #f4f5fd;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.pic{
+    height: 75px;
+    background-color:gray;
+    border-color: black;
+    border-radius: 45px;
+ }
+ .mar{
+     margin-left: 15px;
+ }

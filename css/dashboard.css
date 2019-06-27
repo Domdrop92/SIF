@@ -1,0 +1,114 @@
+
+.header{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+ }
+ .GITgirls-logo{
+    height: 50px;
+    width: 50px;
+ }
+.logo{
+    height: 20%;
+}
+.h200{
+    height: 200px;
+}
+body {
+    background-color: #f4f5fd;
+}
+/* TASK STYLES */
+.pic{
+    height: 75px;
+    background-color: gray;
+    border-color: black;
+    border-radius: 45px;
+}
+.pink{
+    color: #E897B6;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.fwhite{
+    color:white;
+}
+.gray{
+    color: #999AA7;
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.lightgray{
+    background-color: #E9EBF0;
+}
+.f50{
+    font-size: 50px;
+}
+.f36{
+    font-size: 28px;
+}
+.h100{
+    height: 100px;
+}
+.h80{
+    height: 80px;
+    width: 100px;
+}
+.h80w150{
+    height: 80px;
+    width: 150px;
+}
+.bold{
+    font-weight: bold;
+}
+.sixcaps, .greyBtn, .btn{
+    font-family: mongoose, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ibm{
+    font-family: 'IBM Plex Serif', serif;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* END TASK STYLES */
+.top{
+    margin-top:10px;
+    border-bottom: solid thin #999AA7;
+}
+.greyBtn{
+    background-color: #999AA7;
+    font-size: 28px;
+    padding-left:20px; 
+    padding-right:20px; 
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+}
+.spc{
+    margin-bottom: 15px;
+}
+.ink{
+    color: #FFB6B3;
+}
+nav{
+    background-color: #f4f5fd;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

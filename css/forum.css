@@ -1,0 +1,121 @@
+
+body{
+    font-family: ibm-plex-serif, sans-serif;
+    letter-spacing: 1px;
+    height: 100vh;
+    background-color:#F4F5FD
+}
+/**** START HEADER ****/
+.header, .askBar, .nav{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+}
+.GITgirls-logo{
+    height: 50px;
+    width: 50px;
+}
+/**** END HEADER ****/
+
+/**** POST BAR AND MODAL ****/
+.modal-content{
+    background-color:#999AA7;
+}
+.modal-header, .modal-body{
+    border-bottom: thin solid #FFB6B3;
+    color: #FFFFFF;
+}
+.fa-edit{
+    color: #999AA7;
+    background-color:#F4F5FD;
+}
+.submit{
+    width: 80px;
+    background-color: #FFB6B3;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+}
+/**** END POST BAR AND MODAL ****/
+/**** SEARCH BAR ****/
+.searchBar{
+    width: 125px;
+    border-radius: 15px;
+}
+.button{
+    border: none;
+    background-color:#F4F5FD;
+}
+/**** SEARCH BAR ****/
+/* QUESTIONS SECTION */
+
+.np{
+    width: 20%;
+    height: 40px;
+    border-radius: 15px;
+ }
+ .post, .postBack{
+    background-color:  #E9EBF0;
+    border-color: #999AA7;
+ }
+ ul{
+    list-style-type: none;
+    padding-top: 10px;
+    
+ 
+  }
+ li{
+    cursor: pointer;
+    font-family: 'IBM Plex Serif', serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    list-style-type: none;
+    border-bottom: solid thin #999AA7;
+    color: #858693;
+ }
+ 
+ h2, h3{
+    list-style-type: none;
+    font-family: mongoose, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    padding-top: 10px;
+  }
+ 
+ h2{
+    color: #E897B6;
+    /* border-bottom:solid thin #858693; */
+  }
+  h3{
+      color: #FFB6B3;
+  }
+
+/* QUESTIONS SECTION END */
+
+/**** START NAV BAR ****/
+nav{
+    background: #F4F5FD;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/**** END NAV BAR ****/
+
+

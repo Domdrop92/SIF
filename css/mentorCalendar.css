@@ -1,0 +1,222 @@
+
+body{
+    font-family: ibm-plex-serif, sans-serif;
+    letter-spacing: 1px;
+    background-color:#F4f5fd;
+    height: 100vh;
+}
+/**** START HEADER ****/
+.header{
+    padding: 15px;
+    border-bottom: solid thin #999AA7;
+}
+.GITgirls-logo{
+    height: 50px;
+    width: 50px;
+}
+/**** END HEADER ****/
+
+.createButton, .editButton{
+    width: 40%;
+    border: none;
+    border-radius: 15px;
+    color:#999AA7;
+    padding: 10px 32px;
+    text-decoration: none;
+    background-color: #F4F5FD;
+    font-size: 20px;
+    margin: 4px 4px;
+}
+.boxed{ 
+    border-radius: 10px;
+    color: #E897B6;
+    padding: 10px;
+}
+
+.dates{
+    padding-top: 5px;
+    font-size: 45px;
+
+}
+
+.box{
+    margin: 5px;
+    height: 200px;
+    background: #e897b6;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 70%;
+    padding: 5px;
+}
+
+
+.box-2{
+    margin: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #999AA7;
+    color: #FFFFFF;
+    width: 20%;
+    padding: 5px;
+}
+
+.box-3{
+    margin: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:#DFE6F5;
+    color: #E897B6;
+    width: 45%;
+    padding: 5px;
+}
+ .box-4{
+    margin: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:#E9EBF0;
+    color: #FFB6B3;
+    width: 45%;
+    padding: 5px;
+ }
+
+
+ .box-5{
+    margin: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #E9EBF0;
+    color: #999AA7;
+    width: 30%;
+    padding: 5px;
+ }
+
+.box-6{
+    margin: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #FFB6B3;
+    color: #FFFFFF;
+    width: 30%;
+    padding: 5px;
+}
+
+.box-7{
+    margin: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #E9EBF0;
+    color: #999AA7;
+    width: 30%;
+    padding: 5px;
+}
+
+.pic{
+    height: 75px;
+    background-color:gray;
+    border-color: black;
+    border-radius: 45px;
+}
+.pink{
+    color: #E897B6;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.fwhite{
+    color:white;
+}
+.gray{
+    color: #999AA7;
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.lightgray{
+    background-color: #E9EBF0;
+}
+.f22{
+    font-size: 22px;
+}
+ .f14{
+    font-size: 14px;
+}
+.f12{
+    font-size: 12px;
+}
+ 
+.h100{
+    height: 100px;
+}
+.h80{
+    height: 80px;
+    width: 100px;
+}
+.h80w150{
+    height: 80px;
+    width: 150px;
+}
+.bold{
+    font-weight: bold;
+}
+.sixcaps{
+    font-family: mongoose, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ibm{
+    font-family: 'IBM Plex Serif', serif;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/**** START NAV BAR ****/
+nav{
+    background: #f4f5fd;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.lightgray{
+    background-color: #F4F5FD;
+}
+/**** END NAV BAR ****/
+a:hover{
+    color:#0056b3;
+    text-decoration:none;
+}
+
+.modal-content{
+    background-color:#999AA7;
+ }
+ .modal-header, .modal-body{
+    border-bottom: thin solid #FFB6B3;
+    color: #FFFFFF;
+ }
+ .fa-edit{
+    background-color:#F4F5FD
+ }
+ .submit{
+    width: 80px;
+    background-color: #FFB6B3;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+ }

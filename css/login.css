@@ -1,0 +1,89 @@
+
+body{
+    font-family: 'ibm-plex-serif', sans-serif;
+    letter-spacing: 1px;
+    background-color:#FFB6B3;
+    height: 100vh;
+}
+
+/**** START HEADER ****/
+.header{
+    padding: 15px;
+}
+.GITgirls-logo{
+    margin-top: 100px;
+    height: 75px;
+    width: 200px;
+}
+.welcome{
+    font-family: 'IBM plex serif', serif;
+    color: #999AA7;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/**** END HEADER ****/
+/****START LOGIN AND REGISTER BUTTONS****/
+.login_button{
+    font-size: 20px;
+    color: #FFB6B3;
+    background-color: #E9EBF0;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.createAccount{
+    color: #999AA7;
+    background-color:#FFB6B3;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 25px;
+}
+/****END LOGIN AND REGISTER BUTTONS****/
+
+/**** START LOGIN FORM ****/
+.form-control{
+    padding: 10px;
+    height: 45px
+}
+.modal-content{
+    background-color:#999AA7;
+}
+.modal-header, .modal-body{
+    border-bottom: thin solid #FFB6B3;
+    color: #FFFFFF;
+}
+.submitButton{
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    border: none;
+    padding: 3px;
+}
+.submitButton{
+    width: 80px;
+    background-color: #FFB6B3;
+}
+.input-group-text, .input-group, .btn{
+    padding: 5px;
+}
+.custom-radio{
+    margin-left: 10px;
+}
+.iAm{
+    margin-bottom: 25px;
+}
+/* Border radius and font for buttons and modal */
+.form-control, .sub_button, .submitButton, .createAccount, .input-group-text, .input-group, .btn{
+    border-radius: 20px;
+    font-family: 'IBM plex serif', serif;
+    font-style: italic;
+}
+.signin{
+    padding-top: 12px;
+    text-align: center;
+}
+.cancelBtn, .submitBtn{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/**** END LOGIN FORM ****/
