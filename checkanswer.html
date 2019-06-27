@@ -39,24 +39,39 @@
             </div>
         </form>
         <div class="row d-flex flex-row justify-content-center btnRow">
-            <button class="btn btn-warning click" onclick="checkOnIt()">
-                Check Answer
+            <button class="btn click" onclick="checkOnIt()">
+                <b>Check Answer</b> 
             </button>
-            <button class="btn btn-success click" onclick="submitIt()">
-                Submit
+            <button class="btn click" onclick="submitIt()">
+                <b>Submit</b>
             </button>
-            <a href="https://www.w3schools.com/"><i class="fas fa-asterisk"></i></a>
+            <a href="https://www.w3schools.com/">
+                <i class="fas fa-asterisk"></i>
+            </a>
         </div>
     </div>
     </div>
-<!-- nav -->
-<nav class="row  lightgray h100 fixed-bottom">
-        <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'dashboard.html';" id="myDashboard"class="btn text-wrap fwhite peach h80"><i class="fas fa-home fa-2x"></i></button></div>
-        <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'calendar.html';" id="myCalendar"class="btn fwhite peach h80"><i class="fas fa-calendar-day fa-2x"></i></button></div>
-        <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'forum.html';" id="myForum"class="btn fwhite peach h80"><i class="fas fa-align-left fa-2x"></i></button></div>
-        <div class="col-3 ptpb"><button type="button" onclick="loation.href = 'inbox.html';" id="myInbox"class="btn fwhite peach h80"><i class="fas fa-envelope fa-2x"></i></button></div>
-   </nav>
-<!-- end nav -->
+        <!----- START OF NAVBAR ----->
+        <div class="extraSpace">
+            </div>
+            <nav class="row  lightgray h100 justify-content-center fixed-bottom">
+                <div class="col-3 ptpb">
+                    <button type="button" onclick="location.href = 'dashboard.html';" id="myDashboard"class="btn text-wrap fwhite peach h80">
+                        <i class="fas fa-home fa-2x"></i>
+                    </button>
+                </div>
+                <div class="col-3 ptpb">
+                    <button type="button" onclick="location.href = 'studentcalendar.html';" id="myCalendar"class="btn fwhite peach h80">
+                        <i class="fas fa-calendar-day fa-2x"></i>
+                    </button>
+                </div>
+                <div class="col-3 ptpb">
+                    <button type="button" onclick="location.href = 'forum.html';" id="myForum"class="btn fwhite peach h80">
+                        <i class="fas fa-align-left fa-2x"></i>
+                    </button>
+                </div>
+            </nav>
+                <!----- END OF NAVBAR ----->
     <script src="js/checkanswer.js"></script>
     <script src="js/sdashboard.js"></script>
 

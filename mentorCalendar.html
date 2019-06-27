@@ -19,29 +19,6 @@
             <img src="img/GITgirls-logo.png" alt="Uppercase grey G and lowecase pink G" class="GITgirls-logo">
     </header>
     <!----- END HEADER ----->
-    <!-- NAVBAR -->
-    <nav class="row  lightgray h100 fixed-bottom">
-            <div class="col-3 ptpb">
-                <button type="button" onclick="location.href = 'dashboard.html';" id="myDashboard"class="btn text-wrap fwhite peach h80"><i class="fas fa-home fa-2x"></i>
-                </button>
-            </div>
-            <div class="col-3 ptpb">
-                <button type="button" onclick="location.href = 'calendar.html';" id="myCalendar"class="btn fwhite peach h80">
-                    <i class="fas fa-calendar-day fa-2x"></i>
-                </button>
-            </div>
-            <div class="col-3 ptpb">
-                <button type="button" onclick="location.href = 'forum.html';" id="myForum"class="btn fwhite peach h80">
-                    <i class="fas fa-align-left fa-2x"></i>
-                </button>
-            </div>
-            <div class="col-3 ptpb">
-                <button type="button" onclick="location.href = 'inbox.html';" id="myInbox"class="btn fwhite peach h80">
-                    <i class="fas fa-envelope fa-2x"></i>
-                </button>
-            </div>
-        </nav>
-    <!-- NAVBAR END -->
     <div class="row">
             <div class="col-3">
                 <img class="pic" src="img/profilepictwo.jpg" alt="profilepic">
@@ -49,7 +26,7 @@
             <div class="col-9">
                 <div class="row">
                     <h2 class="gray ibm">
-                        Catherine Price
+                        Katherine Price
                     </h2>
                 </div>
                  <div class="row">
@@ -335,8 +312,28 @@
             </div>
         </div>
         <div class="extraSpace">
-
         </div>
+            <!----- START OF NAVBAR ----->
+    <div class="extraSpace">
+        </div>
+        <nav class="row  lightgray h100 justify-content-center fixed-bottom">
+            <div class="col-3 ptpb">
+                <button type="button" onclick="location.href = 'mentordash.html';" id="myDashboard"class="btn text-wrap fwhite peach h80">
+                    <i class="fas fa-home fa-2x"></i>
+                </button>
+            </div>
+            <div class="col-3 ptpb">
+                <button type="button" onclick="location.href = 'mentorCalendar.html';" id="myCalendar"class="btn fwhite peach h80">
+                    <i class="fas fa-calendar-day fa-2x"></i>
+                </button>
+            </div>
+            <div class="col-3 ptpb">
+                <button type="button" onclick="location.href = 'forum.html';" id="myForum"class="btn fwhite peach h80">
+                    <i class="fas fa-align-left fa-2x"></i>
+                </button>
+            </div>
+        </nav>
+        <!----- END OF NAVBAR ----->
         <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
         <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>

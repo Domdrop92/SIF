@@ -19,5 +19,5 @@
         }
     }
     function submitIt() {
-       window.location= "#";
+       window.location= "dashboard.html";
     }

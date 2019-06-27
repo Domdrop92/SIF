@@ -1,14 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
-/* font-family: 'IBM Plex Serif', serif;
-font-family: 'Six Caps', sans-serif; */
 
 body{
     font-family: ibm-plex-serif, sans-serif;
     letter-spacing: 1px;
 }
 .container{
-    background-color:#E9EBF0
-    height; 100vh;
+    background-color:#E9EBF0;
+    height: 100vh;
 }
 
 /**** START HEADER ****/

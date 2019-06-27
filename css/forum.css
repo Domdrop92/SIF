@@ -15,28 +15,7 @@ body{
     width: 50px;
 }
 /**** END HEADER ****/
-/**** START NAV BAR ****/
-nav{
-    background: #F4F5FD;
-}
-.h80{
-    height: 60px;
-    width: 90%; 
-}
-.peach{
-    background-color: #FFB6B3;
-}
-.fwhite{
-    color:white;
-}
-.extraSpace{
-    height: 85px;
-}
-.ptpb{
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-/**** END NAV BAR ****/
+
 /**** POST BAR AND MODAL ****/
 .modal-content{
     background-color:#999AA7;
@@ -115,5 +94,28 @@ nav{
   }
 
 /* QUESTIONS SECTION END */
+
+/**** START NAV BAR ****/
+nav{
+    background: #F4F5FD;
+}
+.h80{
+    height: 60px;
+    width: 90%; 
+}
+.peach{
+    background-color: #FFB6B3;
+}
+.fwhite{
+    color:white;
+}
+.extraSpace{
+    height: 85px;
+}
+.ptpb{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/**** END NAV BAR ****/
 
 

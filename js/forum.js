@@ -79,3 +79,14 @@ db.collection('forumPosts').get().then((snapshot)=>{
 
 })
 
+// START NAVBAR LINKS
+document.getElementById("myCalendar").onclick= function(){
+  location.href = "studentcalendar.html";
+};
+document.getElementById("myDashboard").onclick= function(){
+  location.href = "dashboard.html";
+};
+document.getElementById("myForum").onclick= function(){
+  location.href = "forum.html";
+};
+// END NAVBAR LINKS

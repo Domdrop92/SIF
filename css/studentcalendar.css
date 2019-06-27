@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Six+Caps&display=swap');
-/* font-family: 'IBM Plex Serif', serif;
-font-family: 'Six Caps', sans-serif; */
-
 body{
    font-family: ibm-plex-serif, sans-serif;
    letter-spacing: 1px;
    background-color:#F4f5fd;
    height: 100vh;
 }
-
 
 /**** START HEADER ****/
 .header{
@@ -42,7 +37,6 @@ body{
 .dates{
    padding-top: 5px;
    font-size: 45px;
-
 }
 
 .box{
@@ -165,8 +159,8 @@ body{
 }
 .sixcaps{
    font-family: mongoose, sans-serif;
-font-weight: 400;
-font-style: normal;
+   font-weight: 400;
+   font-style: normal;
 }
 .ibm{
    font-family: 'IBM Plex Serif', serif;
@@ -259,7 +253,7 @@ font-style: normal;
 
  /**** START NAV BAR ****/
 nav{
-    background: #ffffff;
+   background: #F4F5FD;
 }
 .h80{
     height: 60px;

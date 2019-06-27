@@ -1,8 +1,8 @@
 document.getElementById("myCalendar").onclick= function(){
-    location.href = "calendar.html";
+    location.href = "studentcalendar.html";
 };
 document.getElementById("myDashboard").onclick= function(){
-    location.href = "dashboard.html";
+    location.href = "mentordash.html";
 };
 document.getElementById("myForum").onclick= function(){
     location.href = "forum.html";

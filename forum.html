@@ -9,43 +9,22 @@
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/forum.css">
     <link rel="stylesheet" href="https://use.typekit.net/xhg4tix.css">
-    <title>Forem Page GG</title>
+    <title>Forum Page GG</title>
 </head>
 
 <body class="container">
-    <!----- FORUM PAGE ----->
-        <!----- START HEADER ----->
-        <header class="header row">
-            <a href="#" class="offset-10">
-                <img src="img/GITgirls-logo.png" class=" GITgirls-logo" alt="Uppercase grey G and lowecase pink G">
-            </a>
-        </header>
-        <!----- END HEADER ----->
-        <nav class="row  lightgray h100 fixed-bottom">
-            <div class="col-3 ptpb">
-                <button type="button" onclick="loation.href = 'dashboard.html';" id="myDashboard"class="btn text-wrap fwhite peach h80"><i class="fas fa-home fa-2x"></i>
-                </button>
-            </div>
-            <div class="col-3 ptpb">
-                <button type="button" onclick="loation.href = 'calendar.html';" id="myCalendar"class="btn fwhite peach h80">
-                    <i class="fas fa-calendar-day fa-2x"></i>
-                </button>
-            </div>
-            <div class="col-3 ptpb">
-                <button type="button" onclick="loation.href = 'forum.html';" id="myForum"class="btn fwhite peach h80">
-                    <i class="fas fa-align-left fa-2x"></i>
-                </button>
-            </div>
-            <div class="col-3 ptpb">
-                <button type="button" onclick="loation.href = 'inbox.html';" id="myInbox"class="btn fwhite peach h80">
-                    <i class="fas fa-envelope fa-2x"></i>
-                </button>
-            </div>
-        </nav>
+<!----- FORUM PAGE ----->
+    <!----- START HEADER ----->
+    <header class="header row">
+        <a href="#" class="offset-10">
+            <img src="img/GITgirls-logo.png" class=" GITgirls-logo" alt="Uppercase grey G and lowecase pink G">
+        </a>
+    </header>
+    <!----- END HEADER ----->
         <!----- START CREATE BUTTONS AND SEARCH BAR ----->
     <div class="row d-flex flex-row justify-content-center askBar">
         <!-- ASK BUTTON W/ MODAL -->
-        <button type="button" class="offset-1 button" data-toggle="modal" data-target="#postModal">
+        <button type="button" class="button" data-toggle="modal" data-target="#postModal">
             <i class="fas fa-edit fa-2x"></i>
         </button>
         <div class="modal fade" id="postModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -80,12 +59,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- END ASK BUTTON W/ MODAL -->
-            <!-- SEARCH BAR -->
-            <input class="form-control offset-1 searchBar" id="searchBar" type="text" value="" placeholder="Search..." aria-label="Search">
-            <!-- END SEARCH BAR -->
         </div>
+        <!-- END ASK BUTTON W/ MODAL -->
+
+        <!-- SEARCH BAR -->
+        <!-- <input class="form-control offset-1 searchBar" id="searchBar" type="text" value="" placeholder="Search..." aria-label="Search"> -->
+        <!-- END SEARCH BAR -->
+    </div>
         <!----- END CREATE BUTTONS AND SEARCH BAR ----->
 
         <!----- START POSTED Q SECTION ----->
@@ -99,29 +79,30 @@
         <!----- END POSTED Q SECTION ----->
 
         <!----- START OF NAVBAR ----->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+        <div class="extraSpace">
+        </div>
+        <nav class="row  lightgray h100 justify-content-center fixed-bottom">
+            <div class="col-3 ptpb">
+                <button type="button" onclick="location.href = 'dashboard.html';" id="myDashboard"class="btn text-wrap fwhite peach h80">
+                    <i class="fas fa-home fa-2x"></i>
+                </button>
+            </div>
+            <div class="col-3 ptpb">
+                <button type="button" onclick="location.href = 'studentcalendar.html';" id="myCalendar"class="btn fwhite peach h80">
+                    <i class="fas fa-calendar-day fa-2x"></i>
+                </button>
+            </div>
+            <div class="col-3 ptpb">
+                <button type="button" onclick="location.href = 'forum.html';" id="myForum"class="btn fwhite peach h80">
+                    <i class="fas fa-align-left fa-2x"></i>
+                </button>
+            </div>
+        </nav>
+            <!----- END OF NAVBAR ----->
 
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
-<!-- <script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyBfMKU92wbOsaux9enmoBN0xpdo3__de5E",
-    authDomain: "gitgirls-2019.firebaseapp.com",
-    databaseURL: "https://gitgirls-2019.firebaseio.com",
-    projectId: "gitgirls-2019",
-    storageBucket: "gitgirls-2019.appspot.com",
-    messagingSenderId: "924271804292",
-    appId: "1:924271804292:web:38987aee5f4e40d7"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-    const db = firebase.firestore();
-    const auth = firebase.auth();
-</script> -->
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -133,8 +114,6 @@
         crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
     <script src="js/forum.js"></script>
-    <script src="js/sdashboard.js"></script>
-    <!-- <script src="js/app.js"></script> -->
 </body>
 
 </html>
